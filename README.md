@@ -59,14 +59,15 @@ tgrade keys add my-validator --home /mnt/data/.tgrade
 Gathering the mnemonic(s) and save it(them) in a safe place
 
 ### Setup the right parameters and values on the TOML files
-Please edit the app/toml and config.toml accordingly
+Please edit the `config/app.toml` and `config/config.toml` accordingly
+
 ```
 - app.toml: set minimum-gas-prices
-  minimum-gas-prices = "0.05utgd”
+  minimum-gas-prices = "0.05utgd"
 
 - config.toml: set persistent_peers and other suggested changes
-  moniker = “<your validator name>”
-  persistent_peers = “604fd705a28d7abd903a813e2a1bfdb631f7b713@65.108.167.158:26656,abe2378e5053e8b9dd3a22691b4cb54ff8303004@65.108.167.160:26656”
+  moniker = "<your validator name>"
+  persistent_peers = "604fd705a28d7abd903a813e2a1bfdb631f7b713@65.108.167.158:26656,abe2378e5053e8b9dd3a22691b4cb54ff8303004@65.108.167.160:26656"
 ```
 
 ### Get the lastest genesis file
