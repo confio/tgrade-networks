@@ -75,7 +75,11 @@ Please edit the app/toml and config.toml accordingly
 ```
 
 ### Get the lastest genesis file
-( If you are seeing this, We will publish the genesis file  pretty soon )
+Get the genesis file and moved to the right location
+```bash
+wget https://raw.githubusercontent.com/confio/public-testnets/main/testnet-3/config/genesis.json -O ~/.tgrade/config/genesis.json
+```
+( this will be the case the APP Home directory is ~/.tgrade/config/genesis.json, please change it accordingly to your system/validator)
 
 ### Start the syncing
 There are different ways to manage the tgrade binary on your validator,
