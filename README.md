@@ -75,3 +75,42 @@ Please edit the app/toml and config.toml accordingly
 ```
 
 ### Get the lastest genesis file
+
+### Start the syncing
+There are different ways to manage the tgrade binary on your validator,
+1. By setting up such binary to be managed by systemd, or
+2. Open a tmux or screen session and run tgrade start
+
+The synstax is:
+```bash
+tgrade start --rpc.laddr tcp://127.0.0.1:26657
+```( or just tgrade start )
+
+if you are using a docker container: **--rpc.laddr tcp://0.0.0.0:26657**
+
+### Upgrade to a validator
+Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain
+```bash
+tgrade tx poe create-validator \
+  --amount 5000000utgd \
+  --from <validator-address> \
+  --pubkey $(tgrade tendermint show-validator)  \
+  --chain-id tgrade-testnet-3 \
+  --moniker "<your-validator-name>" \
+  --fees 15000utgd \
+  --node https://rpc.testnet-3.tgrade.io:443
+```
+
+Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
+https://testnet.tgrade.aneka.io/
+
+### ( Optional )
+If you want to delegate an amount of liquid coins from your wallet to a validator:
+```bash
+tgrade tx poe self-delegate 5000000000utgd \
+  --from <validator-address> \
+  --chain-id tgrade-testnet-3 \
+  --fees 15000utgd \
+  --node https://rpc.testnet-3.tgrade.io:443
+```
+
