@@ -84,7 +84,8 @@ There are different ways to manage the tgrade binary on your validator,
 The synstax is:
 ```bash
 tgrade start --rpc.laddr tcp://127.0.0.1:26657
-```( or just tgrade start )
+```
+( or just tgrade start )
 
 if you are using a docker container: **--rpc.laddr tcp://0.0.0.0:26657**
 
