@@ -75,6 +75,7 @@ Please edit the app/toml and config.toml accordingly
 ```
 
 ### Get the lastest genesis file
+( If you are seeing this, We will publish the genesis file  pretty soon )
 
 ### Start the syncing
 There are different ways to manage the tgrade binary on your validator,
