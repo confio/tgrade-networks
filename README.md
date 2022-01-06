@@ -26,12 +26,7 @@ git tag ( and search for the latest stable release )
 git checkout [latest version]
 ```
 
-Run GO install for the upcoming binary
-```bash
-make install
-```
-
-Build the binary
+Run GO install and build for the upcoming binary
 ```bash
 make build
 ```
