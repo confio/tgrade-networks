@@ -41,3 +41,37 @@ Move the binary to an executable path
 sudo mv build/tgrade /usr/local/bin
 ```
 
+## How to join the public testnet
+
+### Initialize your genesis and configuration files
+Initialize your genesis and configuration files for all validators nodes
+
+Usage:
+```bash
+tgrade init [moniker] [flags]
+tgrade init my-validator --chain-id tgrade-testnet-3 --home /mnt/data/.tgrade
+```
+
+### Create validators addresses/keys
+Generated new addresses/keys for the validators
+
+Usage:
+```bash
+tgrade keys add <name> [flags]
+tgrade keys add my-validator --home /mnt/data/.tgrade
+```
+
+Gathering the mnemonic(s) and save it(them) in a safe place
+
+### Setup the right parameters and values on the TOML files
+Please edit the app/toml and config.toml accordingly
+```
+- app.toml: set minimum-gas-prices
+  minimum-gas-prices = "0.05utgd”
+
+- config.toml: set persistent_peers and other suggested changes
+  moniker = “<your validator name>”
+  persistent_peers = “604fd705a28d7abd903a813e2a1bfdb631f7b713@65.108.167.158:26656,abe2378e5053e8b9dd3a22691b4cb54ff8303004@65.108.167.160:26656”
+```
+
+### Get the lastest genesis file
