@@ -78,7 +78,7 @@ Please edit the app/toml and config.toml accordingly
 
 ### Start the syncing
 There are different ways to manage the tgrade binary on your validator,
-1. By setting up such binary to be managed by systemd, or
+1. Setting up such binary to be managed by systemd, or
 2. Open a tmux or screen session and run tgrade start
 
 The synstax is:
