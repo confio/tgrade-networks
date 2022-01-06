@@ -26,19 +26,13 @@ git tag ( and search for the latest stable release )
 git checkout [latest version]
 ```
 
-Run GO install for the upcoming binary
+
 ```bash
+# Build and install the binary
 make install
-```
 
-Build the binary
-```bash
-make build
-```
-
-Move the binary to an executable path
-```bash
-sudo mv build/tgrade /usr/local/bin
+# Make it available in PATH
+sudo ln -s ~/go/bin/tgrade /usr/local/bin
 ```
 
 ## How to join the public testnet
