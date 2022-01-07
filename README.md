@@ -1,5 +1,8 @@
 # Tgrade - Testnet-3
 
+You can see the live network via our [block explorer](https://testnet.tgrade.aneka.io) or [Tgrade application](https://try.tgrade.finance).
+When you are ready to build a node, follow the instructions below:
+
 ## Hardware Requirements
 For running a tgrade validator. We tested successfully with the following Architecture:
 
