@@ -20,10 +20,9 @@ You can use a physical infrastructure (baremetal) or wellknown cloud providers l
 ## Build the tgrade binary
 The tgrade binary is the backbone of the platform. It is both blockchain node and interaction client. Therefore we use git to clone tgrade repo into our running validator
 ```bash
-git clone https://github.com/confio/<to be announced soon>
+git clone https://github.com/confio/tgrade
 cd tgrade
-git tag ( and search for the latest stable release )
-git checkout [latest version]
+git checkout v0.5.1
 ```
 
 Run GO install and build for the upcoming binary
