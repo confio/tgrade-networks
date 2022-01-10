@@ -71,6 +71,11 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
   moniker = "<your validator name>"
   persistent_peers = "604fd705a28d7abd903a813e2a1bfdb631f7b713@65.108.167.158:26656,abe2378e5053e8b9dd3a22691b4cb54ff8303004@65.108.167.160:26656"
 ```
+Optional, There is one volunteer seed node located in London.
+You could add it to your persistent_peers parameter
+```
+95e7eba78b895763ba53198f0019820a77aec28f@178.128.169.146:26656
+```
 
 ### Get the lastest genesis file
 Get the genesis file and moved to the right location
