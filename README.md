@@ -76,6 +76,7 @@ You could add the to your persistent_peers parameter
 ```
 95e7eba78b895763ba53198f0019820a77aec28f@178.128.169.146:26656
 0936197ae12be2a23114dbd32296c790c0bea405@206.189.85.24:26656
+59e132642c457585d0048381d19d3037f4cfad1b@157.90.35.145:29656
 ```
 
 ### Get the lastest genesis file
