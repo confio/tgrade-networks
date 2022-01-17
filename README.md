@@ -1,3 +1,7 @@
+# WE REACHED THE LIMIT OF 100 VALIDATORS SET IN THE GENESIS FILEI
+
+[Announcement](https://twitter.com/TgradeFinance/status/1483063414570328072)
+
 # Tgrade - Testnet-3
 
 You can see the live network via our [block explorer](https://testnet.tgrade.aneka.io) or [Tgrade application](https://try.tgrade.finance).
