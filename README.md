@@ -110,7 +110,7 @@ tgrade start --rpc.laddr tcp://127.0.0.1:26657
 if you are using a docker container: **--rpc.laddr tcp://0.0.0.0:26657**
 
 ### Get some tokens
-You can get tokens by login for first time into the TGrade WebApp: [Tgrade application](https://try.tgrade.finance), or on the discord channel: [testnet-3-faucet](https://discord.com/channels/844486286445903872/875001092495269938)
+You can get tokens by login for first time into the Tgrade WebApp: [Tgrade application](https://try.tgrade.finance), or on the discord channel: [testnet-3-faucet](https://discord.com/channels/844486286445903872/875001092495269938)
 
 ### Upgrade to a validator
 Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain
