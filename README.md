@@ -109,6 +109,9 @@ tgrade start --rpc.laddr tcp://127.0.0.1:26657
 
 if you are using a docker container: **--rpc.laddr tcp://0.0.0.0:26657**
 
+### Get some tokens
+You can get tokens by login for first time into the TGrade WebApp: [Tgrade application](https://try.tgrade.finance), or on the discord channel: [testnet-3-faucet](https://discord.com/channels/844486286445903872/875001092495269938)
+
 ### Upgrade to a validator
 Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain
 ```bash
@@ -125,7 +128,7 @@ tgrade tx poe create-validator \
 Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
 https://testnet.tgrade.aneka.io/
 
-### ( Optional )
+### ( Optional 1 )
 If you want to delegate an amount of liquid coins from your wallet to a validator:
 ```bash
 tgrade tx poe self-delegate 5000000000utgd \
@@ -133,5 +136,24 @@ tgrade tx poe self-delegate 5000000000utgd \
   --chain-id tgrade-testnet-3 \
   --fees 15000utgd \
   --node https://rpc.testnet-3.tgrade.io:443
+```
+
+### ( Optional 2 )
+If you decided to managed the tgrade binary by a systemd service file, please find an the example below:
+```bash
+[Unit]
+Description=tgrade blockchain
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+TimeoutStartSec=5
+Restart=always
+User=root
+Group=root
+ExecStart=/usr/local/bin/tgrade start --rpc.laddr tcp://0.0.0.0:26657
+
+[Install]
+WantedBy=multi-user.target
 ```
 
