@@ -8,9 +8,9 @@ We reached the **limit of 100 validators** set in the genesis file
 You can see the live network via our [block explorer](https://testnet.tgrade.aneka.io) or [Tgrade application](https://try.tgrade.finance).
 When you are ready to build a node, follow the instructions below:
 
-* [Hardware Requirements](#Hardware)
-* [Build the tgrade binary](#Build)
-* [How to join the public testnet](#How)
+* [Hardware Requirements](#hardware-requirements)
+* [Build the tgrade binary](#build-the-tgrade-binary)
+* [How to join the public testnet](#how-to-join-the-public-testnet)
 
 ## Hardware Requirements
 For running a tgrade validator. We tested successfully with the following Architecture:
