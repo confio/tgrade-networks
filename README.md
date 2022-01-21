@@ -1,7 +1,9 @@
 # Announcement
 
-The network's goals have far exceeded our expectations, and we have reached the **limit of 100 validators** set in the Genesis file.🎉
-No more can join. 
+The network's goals have far exceeded our expectations, and we have reached the **limit of 100 validators** set in the Genesis file.
+
+**No more can join.** 
+
 - [Reference](https://twitter.com/TgradeFinance/status/1483063414570328072)
 
 # Tgrade - Testnet-3
