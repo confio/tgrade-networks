@@ -6,6 +6,13 @@ The network's goals have far exceeded our expectations, and we have reached the 
 
 - [Reference](https://twitter.com/TgradeFinance/status/1483063414570328072)
 
+**New Announcement 02/02/2022**
+
+Network has stopped
+
+- [Reference](https://medium.com/tgradefinance/tgrade-testnet-3-ab85a8cee3db)
+
+
 # Tgrade - Testnet-3
 
 You can see the live network via our [block explorer](https://testnet.tgrade.aneka.io) or [Tgrade application](https://try.tgrade.finance).
