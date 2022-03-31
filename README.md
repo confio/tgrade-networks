@@ -1,6 +1,8 @@
+If you find this Repo, be aware it is a semi-public testnet. We have already assigned external validators for the task and not accepting newcomers. Thank you
+
 # Tgrade - Spotnet
 
-You can see the live network via our [block explorer](https://testnet.tgrade.aneka.io) or [Tgrade application](https://try.tgrade.finance).
+You can see the live network via our [block explorer]( Pending ) or [Tgrade application](https://try.tgrade.finance).
 When you are ready to build a node, follow the instructions below:
 
 ## Hardware Requirements
@@ -132,4 +134,5 @@ The synstax is:
 ```bash
 tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ```
+( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
