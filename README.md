@@ -116,9 +116,11 @@ git add public-testnets/spotnet/config/gentx/
 git push origin master
 ```
 
-## PHASE 3
+## Start your Validator - PHASE 3
 
 ### Get the final genesis file
+Once we gather all the genesis txs. We will create the final version of the genesis file to be used on the network
+
 Get the genesis file and moved to the right location
 ```bash
 wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/genesis.json -O ~/.tgrade/config/genesis.json
