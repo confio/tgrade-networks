@@ -48,7 +48,7 @@ Initialize your genesis and configuration files for all validators nodes
 Usage:
 ```bash
 tgrade init [moniker] [flags]
-tgrade init my-validator --chain-id tgrade-testnet-4 --home /opt/validator/.tgrade
+tgrade init my-validator --chain-id tgrade-spotnet --home /opt/validator/.tgrade
 ```
 
 ### Import your Validator Key
