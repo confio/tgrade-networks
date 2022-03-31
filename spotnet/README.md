@@ -58,7 +58,7 @@ tgrade keys add <name> --recover
 tgrade keys add my-validator --recover --home /opt/validator/.tgrade
 ```
 
-Gathering the mnemonic(s) and save it(them) in a safe place
+Into the mnemonic(s) used for your tgrade address
 
 ### Get the pre-genesis file
 Get the genesis file and moved to the right location
@@ -66,6 +66,18 @@ Get the genesis file and moved to the right location
 wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
 ```
 ( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
+
+### Setup the right parameters and values on the TOML files
+Please edit the `config/app.toml` and `config/config.toml` accordingly
+
+```
+- app.toml: set minimum-gas-prices
+  minimum-gas-prices = "0.05utgd"
+
+- config.toml: set persistent_peers and other suggested changes
+  moniker = "<your validator name>"
+  persistent_peers = "17ce7d5cac0b99a14d066759203abb5c52549e89@188.34.182.108:26656,e6465e5079d2750d3122e64166ccda579ea3f91e@188.34.182.136:26656,0edb6e2b2369feb605f87f2a993fe7f4256634fa@188.34.182.114:26656"
+```
 
 ## Create genesis txs - PHASE 2
 
@@ -104,10 +116,10 @@ git push origin master
 
 ## PHASE 3
 
-
+### Get the final genesis file
 Get the genesis file and moved to the right location
 ```bash
-wget https://raw.githubusercontent.com/confio/public-testnets/main/testnet-3/config/genesis.json -O ~/.tgrade/config/genesis.json
+wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/genesis.json -O ~/.tgrade/config/genesis.json
 ```
 ( this will be the case the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
 
@@ -118,9 +130,6 @@ There are different ways to manage the tgrade binary on your validator,
 
 The synstax is:
 ```bash
-tgrade start --rpc.laddr tcp://127.0.0.1:26657
+tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ```
-( or just tgrade start )
-
-if you are using a docker container: **--rpc.laddr tcp://0.0.0.0:26657**
 

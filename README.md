@@ -1,32 +1,13 @@
-# Announcement
-
-The network's goals have far exceeded our expectations, and we have reached the **limit of 100 validators** set in the Genesis file.
-
-**No more can join.** 
-
-- [Reference](https://twitter.com/TgradeFinance/status/1483063414570328072)
-
-**New Announcement 02/02/2022**
-
-Network has stopped
-
-- [Reference](https://medium.com/tgradefinance/tgrade-testnet-3-ab85a8cee3db)
-
-
-# Tgrade - Testnet-3
+# Tgrade - Spotnet
 
 You can see the live network via our [block explorer](https://testnet.tgrade.aneka.io) or [Tgrade application](https://try.tgrade.finance).
 When you are ready to build a node, follow the instructions below:
-
-* [Hardware Requirements](#hardware-requirements)
-* [Build the tgrade binary](#build-the-tgrade-binary)
-* [How to join the public testnet](#how-to-join-the-public-testnet)
 
 ## Hardware Requirements
 For running a tgrade validator. We tested successfully with the following Architecture:
 
 - Ubuntu 20.04 LTS
-- go version 1.17.4 [1] or newer
+- go version 1.18 [1] or newer
 - Installed packages make and build-essential [2] [3]
 - 2 or more CPU cores Intel or AMD chipset
 - At least 40GB of disk storage
@@ -44,7 +25,7 @@ The tgrade binary is the backbone of the platform. It is both blockchain node an
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v0.5.1
+git checkout v0.7.0
 ```
 
 Run GO install and build for the upcoming binary
@@ -57,7 +38,7 @@ Move the binary to an executable path
 sudo mv build/tgrade /usr/local/bin
 ```
 
-## How to join the public testnet
+## Setting up a Genesis Tgrade Validator - PHASE 1
 
 ### Initialize your genesis and configuration files
 Initialize your genesis and configuration files for all validators nodes
@@ -65,19 +46,26 @@ Initialize your genesis and configuration files for all validators nodes
 Usage:
 ```bash
 tgrade init [moniker] [flags]
-tgrade init my-validator --chain-id tgrade-testnet-3 --home /mnt/data/.tgrade
+tgrade init my-validator --chain-id tgrade-testnet-4 --home /opt/validator/.tgrade
 ```
 
-### Create validators addresses/keys
-Generated new addresses/keys for the validators
+### Import your Validator Key
+We already have assigned a few external validators from this task. Therefore use the tgrade address YOU provided on the `\#spotnet-validators`
 
 Usage:
 ```bash
-tgrade keys add <name> [flags]
-tgrade keys add my-validator --home /mnt/data/.tgrade
+tgrade keys add <name> --recover
+tgrade keys add my-validator --recover --home /opt/validator/.tgrade
 ```
 
-Gathering the mnemonic(s) and save it(them) in a safe place
+Into the mnemonic(s) used for your tgrade address
+
+### Get the pre-genesis file
+Get the genesis file and moved to the right location
+```bash
+wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
+```
+( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
 ### Setup the right parameters and values on the TOML files
 Please edit the `config/app.toml` and `config/config.toml` accordingly
@@ -88,21 +76,50 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
 
 - config.toml: set persistent_peers and other suggested changes
   moniker = "<your validator name>"
-  persistent_peers = "604fd705a28d7abd903a813e2a1bfdb631f7b713@65.108.167.158:26656,abe2378e5053e8b9dd3a22691b4cb54ff8303004@65.108.167.160:26656,19cc3229b361d2c684dc89c3938c65d2dc67d063@116.203.251.45:26656"
-```
-Recommended, We have a few volunteers as seed nodes located in London, Singapore, East Coast US and elsewhere
-You could add the to your persistent_peers parameter
-```
-95e7eba78b895763ba53198f0019820a77aec28f@178.128.169.146:26656
-0936197ae12be2a23114dbd32296c790c0bea405@206.189.85.24:26656
-fe0682fbe72af8193676cb0cb41adfe94a551e72@5.161.64.239:26656
-b00f8de43d515d9b966f0758ebfa22fb1d98a977@137.184.105.178:26656
+  persistent_peers = "17ce7d5cac0b99a14d066759203abb5c52549e89@188.34.182.108:26656,e6465e5079d2750d3122e64166ccda579ea3f91e@188.34.182.136:26656,0edb6e2b2369feb605f87f2a993fe7f4256634fa@188.34.182.114:26656"
 ```
 
-### Get the lastest genesis file
+## Create genesis txs - PHASE 2
+
+### Collect tendermint node-ids and validator info
+We need to collect from the genesis validators:
+* node-id    ```tgrade tendermint show-node-id```
+* pubkey     ```tgrade tendermint show-validator```
+* IP and port to be used
+
+### Create genesis txs
+On each validator we need to create a genesis tx, by running:
+```bash
+tgrade gentx my-validator 1000000000utgd \
+  --chain-id tgrade-spotnet \
+  --ip <public_ip> 
+  --moniker my-validator \
+  --node-id $(tgrade tendermint show-node-id) \
+  --home /opt/validator/.tgrade
+```
+node-idm pubkey and home values are just examples, please change it accordingly to your system/validator
+
+### Upload your Gen_TX
+The above will create a gentx file. We are going to need it for the genesis collect.
+1. Clone the public-testnets repo.
+2. Copy the gentx file into `../spotnet/config/gentx/`
+3. Commit and push the repo
+4. Create a pull request
+5. Inform us on the discord channel
+
+```bash
+git clone https://github.com/confio/public-testnets.git
+cd public-testnets
+git add public-testnets/spotnet/config/gentx/
+git push origin master
+```
+
+## PHASE 3
+
+### Get the final genesis file
 Get the genesis file and moved to the right location
 ```bash
-wget https://raw.githubusercontent.com/confio/public-testnets/main/testnet-3/config/genesis.json -O ~/.tgrade/config/genesis.json
+wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/genesis.json -O ~/.tgrade/config/genesis.json
 ```
 ( this will be the case the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
 
@@ -113,57 +130,6 @@ There are different ways to manage the tgrade binary on your validator,
 
 The synstax is:
 ```bash
-tgrade start --rpc.laddr tcp://127.0.0.1:26657
-```
-( or just tgrade start )
-
-if you are using a docker container: **--rpc.laddr tcp://0.0.0.0:26657**
-
-### Get some tokens
-You can get tokens by login for first time into the Tgrade WebApp: [Tgrade application](https://try.tgrade.finance), or on the discord channel: [testnet-3-faucet](https://discord.com/channels/844486286445903872/875001092495269938)
-
-### Upgrade to a validator
-Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain
-```bash
-tgrade tx poe create-validator \
-  --amount 5000000utgd \
-  --from <validator-address> \
-  --pubkey $(tgrade tendermint show-validator)  \
-  --chain-id tgrade-testnet-3 \
-  --moniker "<your-validator-name>" \
-  --fees 15000utgd \
-  --node https://rpc.testnet-3.tgrade.io:443
-```
-
-Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
-https://testnet.tgrade.aneka.io/
-
-### ( Optional 1 )
-If you want to delegate an amount of liquid coins from your wallet to a validator:
-```bash
-tgrade tx poe self-delegate 5000000000utgd \
-  --from <validator-address> \
-  --chain-id tgrade-testnet-3 \
-  --fees 15000utgd \
-  --node https://rpc.testnet-3.tgrade.io:443
-```
-
-### ( Optional 2 )
-If you decided to managed the tgrade binary by a systemd service file, please find an the example below:
-```bash
-[Unit]
-Description=tgrade blockchain
-Wants=network-online.target
-After=network-online.target
-
-[Service]
-TimeoutStartSec=5
-Restart=always
-User=root
-Group=root
-ExecStart=/usr/local/bin/tgrade start --rpc.laddr tcp://0.0.0.0:26657
-
-[Install]
-WantedBy=multi-user.target
+tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ```
 
