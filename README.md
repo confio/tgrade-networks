@@ -103,16 +103,18 @@ node-idm pubkey and home values are just examples, please change it accordingly 
 
 ### Upload your Gen_TX
 The above will create a gentx file. We are going to need it for the genesis collect.
-1. Clone the public-testnets repo.
-2. Copy the gentx file into `../spotnet/config/gentx/`
-3. Commit and push the repo
-4. Create a pull request
-5. Inform us on the discord channel
+1. Fork the repo: https://github.com/confio/public-testnetsi , clicking on fork, and choose your account
+2. Clone your fork copy to your local machine
+3. Copy the gentx file into `../spotnet/config/gentx/`
+4. Commit and push the repo
+5. Create a pull request from your fork to the main repo
+6. Inform us on the discord channel
 
 ```bash
-git clone https://github.com/confio/public-testnets.git
+git clone https://github.com/<your_github_username>/public-testnets
 cd public-testnets
 git add public-testnets/spotnet/config/gentx/
+git commit -am "<your validator name> - gentx - comment"
 git push origin master
 ```
 
