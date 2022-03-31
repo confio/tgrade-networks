@@ -94,7 +94,7 @@ On each validator we need to create a genesis tx, by running:
 ```bash
 tgrade gentx my-validator 1000000000utgd \
   --chain-id tgrade-spotnet \
-  --ip <public_ip> 
+  --ip <public_ip> \ 
   --moniker my-validator \
   --node-id $(tgrade tendermint show-node-id) \
   --home /opt/validator/.tgrade
