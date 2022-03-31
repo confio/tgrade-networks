@@ -103,7 +103,7 @@ node-idm pubkey and home values are just examples, please change it accordingly 
 
 ### Upload your Gen_TX
 The above will create a gentx file. We are going to need it for the genesis collect.
-1. Fork the repo: https://github.com/confio/public-testnetsi , clicking on fork, and choose your account
+1. Fork the repo: https://github.com/confio/public-testnets , clicking on fork, and choose your account
 2. Clone your fork copy to your local machine
 3. Copy the gentx file into `../spotnet/config/gentx/`
 4. Commit and push the repo
