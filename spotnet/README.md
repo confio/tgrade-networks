@@ -63,32 +63,48 @@ Gathering the mnemonic(s) and save it(them) in a safe place
 ### Get the pre-genesis file
 Get the genesis file and moved to the right location
 ```bash
-wget https://raw.githubusercontent.com/confio/public-testnets/main/testnet-4/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
+wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
 ```
 ( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
+
+## Create genesis txs - PHASE 2
+
+### Collect tendermint node-ids and validator info
+We need to collect from the genesis validators:
+* node-id    ```tgrade tendermint show-node-id```
+* pubkey     ```tgrade tendermint show-validator```
+* IP and port to be used
 
 ### Create genesis txs
 On each validator we need to create a genesis tx, by running:
 ```bash
-tgrade gentx my-validatpr 1000000000utgd \
-  --chain-id tgrade-testnet-4 \
+tgrade gentx my-validator 1000000000utgd \
+  --chain-id tgrade-spotnet \
   --ip <public_ip> 
-  --moniker my-validator 
-  --node-id b285e300e5bc66fc369f8676cfb6aa92bd6dd354 \
-  --pubkey tgradevalconspub1zcjduepqz4y6jj7495parjq3q7jnne4yglptkh3y4dmpxku9rr705723kqcqlvdt4d \
+  --moniker my-validator \
+  --node-id $(tgrade tendermint show-node-id) \
+  --home /opt/validator/.tgrade
 ```
-node-id and pubkey vaues are just examples, please change it accordingly to your system/validator
+node-idm pubkey and home values are just examples, please change it accordingly to your system/validator
 
-Once this is done we can suggest the genesis validators to upload their gentx to a github repo and comminicate this via discord 
+### Upload your Gen_TX
+The above will create a gentx file. We are going to need it for the genesis collect.
+1. Clone the public-testnets repo.
+2. Copy the gentx file into `../spotnet/config/gentx/`
+3. Commit and push the repo
+4. Create a pull request
+5. Inform us on the discord channel
 
-### Run Collect gentx ( This is going to be from our end )
-We gather all the genesis txs and run:
 ```bash
-tgrade collect-gentxs --home ~/opt/validator/.tgrade
+git clone https://github.com/confio/public-testnets.git
+cd public-testnets
+git add public-testnets/spotnet/config/gentx/
+git push origin master
 ```
-It will create the final version of the genesis file to be used on the netwrok
 
-### Get the final genesis file
+## PHASE 3
+
+
 Get the genesis file and moved to the right location
 ```bash
 wget https://raw.githubusercontent.com/confio/public-testnets/main/testnet-3/config/genesis.json -O ~/.tgrade/config/genesis.json
