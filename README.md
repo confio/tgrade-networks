@@ -93,6 +93,7 @@ We need to collect from the genesis validators:
 On each validator we need to create a genesis tx, by running:
 ```bash
 tgrade gentx my-validator 1000000000utgd \
+  --amount 1000000000utgd \
   --chain-id tgrade-spotnet \
   --ip <public_ip> \ 
   --moniker my-validator \
