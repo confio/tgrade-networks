@@ -53,7 +53,7 @@ tgrade init my-validator --chain-id tgrade-dryrunnet --home /opt/validator/.tgra
 ```
 
 ### Import your Validator Key
-We already have assigned a few external validators from this task. Therefore use the tgrade address YOU provided via Email or on Discord #core-validators channel
+We already have assigned a few external validators from this task. Therefore use the tgrade address YOU provided via Email.
 
 Usage:
 ```bash
