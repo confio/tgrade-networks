@@ -28,7 +28,7 @@ The tgrade binary is the backbone of the platform. It is both blockchain node an
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v0.8.0
+git checkout v0.9.0
 ```
 
 Run GO install and build for the upcoming binary
