@@ -2,7 +2,7 @@ If you find this Repo, be aware it is a semi-public testnet. We have already ass
 
 # Tgrade - Spotnet
 
-You can see the live network via our [block explorer]( Pending ) or [Tgrade application](https://try.tgrade.finance).
+You can see the live network via our [block explorer](https://spotnet.aneka.io).
 When you are ready to build a node, follow the instructions below:
 
 ## Hardware Requirements
