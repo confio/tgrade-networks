@@ -1,8 +1,9 @@
-If you find this Repo, be aware it is a semi-public testnet. We have already assigned external validators for the task and not accepting newcomers. Thank you
+If you find this Repo, be aware it is a semi-public testnet. \
+We have already assigned external validators for the task and not accepting newcomers. Thank you
 
-# Tgrade - Spotnet
+# Tgrade - Dryrunnet
 
-You can see the live network via our [block explorer](https://spotnet.aneka.io).
+You can see the live network via our [block explorer](https://dryrunnet.aneka.io). (Soon) \
 When you are ready to build a node, follow the instructions below:
 
 ## Hardware Requirements
@@ -27,7 +28,7 @@ The tgrade binary is the backbone of the platform. It is both blockchain node an
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v0.7.0
+git checkout v0.8.0
 ```
 
 Run GO install and build for the upcoming binary
@@ -48,11 +49,11 @@ Initialize your genesis and configuration files for all validators nodes
 Usage:
 ```bash
 tgrade init [moniker] [flags]
-tgrade init my-validator --chain-id tgrade-spotnet --home /opt/validator/.tgrade
+tgrade init my-validator --chain-id tgrade-dryrunnet --home /opt/validator/.tgrade
 ```
 
 ### Import your Validator Key
-We already have assigned a few external validators from this task. Therefore use the tgrade address YOU provided on the `\#spotnet-validators`
+We already have assigned a few external validators from this task. Therefore use the tgrade address YOU provided via Email or on Discord #core-validators channel
 
 Usage:
 ```bash
@@ -65,7 +66,7 @@ Into the mnemonic(s) used for your tgrade address
 ### Get the pre-genesis file
 Get the genesis file and moved to the right location
 ```bash
-wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
+wget https://raw.githubusercontent.com/confio/public-testnets/main/dryrunnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
 ```
 ( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
@@ -78,7 +79,7 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
 
 - config.toml: set persistent_peers and other suggested changes
   moniker = "<your validator name>"
-  persistent_peers = "17ce7d5cac0b99a14d066759203abb5c52549e89@188.34.182.108:26656,e6465e5079d2750d3122e64166ccda579ea3f91e@188.34.182.136:26656,0edb6e2b2369feb605f87f2a993fe7f4256634fa@188.34.182.114:26656"
+  persistent_peers = "" ( To be submit )
 ```
 
 ## Create genesis txs - PHASE 2
@@ -92,9 +93,11 @@ We need to collect from the genesis validators:
 ### Create genesis txs
 On each validator we need to create a genesis tx, by running:
 ```bash
-tgrade gentx my-validator 1000000000utgd \
-  --amount 1000000000utgd \
-  --chain-id tgrade-spotnet \
+tgrade gentx my-validator 0utgd 90000000utgd \
+  --amount 0utgd \
+  --vesting-amount 90000000utgd \
+  --fees 10000utgd
+  --chain-id tgrade-dryrunnet \
   --ip <public_ip> \ 
   --moniker my-validator \
   --node-id $(tgrade tendermint show-node-id) \
@@ -106,7 +109,7 @@ node-idm pubkey and home values are just examples, please change it accordingly 
 The above will create a gentx file. We are going to need it for the genesis collect.
 1. Fork the repo: https://github.com/confio/public-testnets , clicking on fork, and choose your account
 2. Clone your fork copy to your local machine
-3. Copy the gentx file into `../spotnet/config/gentx/`
+3. Copy the gentx file into `../dryrunnet/config/gentx/`
 4. Commit and push the repo
 5. Create a pull request from your fork to the main repo
 6. Inform us on the discord channel
@@ -114,7 +117,7 @@ The above will create a gentx file. We are going to need it for the genesis coll
 ```bash
 git clone https://github.com/<your_github_username>/public-testnets
 cd public-testnets
-git add public-testnets/spotnet/config/gentx/
+git add public-testnets/dryrunnet/config/gentx/
 git commit -am "<your validator name> - gentx - comment"
 git push origin master
 ```
@@ -126,7 +129,7 @@ Once we gather all the genesis txs. We will create the final version of the gene
 
 Get the genesis file and moved to the right location
 ```bash
-wget https://raw.githubusercontent.com/confio/public-testnets/main/spotnet/config/genesis.json -O ~/.tgrade/config/genesis.json
+wget https://raw.githubusercontent.com/confio/public-testnets/main/dryrunnet/config/genesis.json -O ~/.tgrade/config/genesis.json
 ```
 ( this will be the case the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
 
