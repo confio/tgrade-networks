@@ -63,7 +63,7 @@ tgrade keys add my-validator --recover --home /opt/validator/.tgrade
 
 Into the mnemonic(s) used for your tgrade address
 
-### Get the pre-genesis file
+### Get the pre-genesis file ( No available now, you have to wait till announcement and new commit )
 Get the genesis file and moved to the right location
 ```bash
 wget https://raw.githubusercontent.com/confio/public-testnets/main/dryrunnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
