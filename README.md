@@ -96,7 +96,7 @@ On each validator we need to create a genesis tx, by running:
 tgrade gentx my-validator 0utgd 90000000utgd \
   --amount 0utgd \
   --vesting-amount 90000000utgd \
-  --fees 10000utgd
+  --fees 10000utgd \
   --moniker my-validator \
   --node-id $(tgrade tendermint show-node-id) \
   --chain-id tgrade-dryrunnet \
