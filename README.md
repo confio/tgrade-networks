@@ -79,7 +79,7 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
 
 - config.toml: set persistent_peers and other suggested changes
   moniker = "<your validator name>"
-  persistent_peers = "" ( To be submit )
+  persistent_peers = "9c70e7fb4237de7dfb842c51d0c8a2bee6b843c0@168.119.252.165:26656,f0976ec13d3498397b0a891b44c9a024f8eebb4a@188.34.162.243:26656,ee664babe18b1005fee0548c8818143e745ad80a@142.132.225.3:26656"
 ```
 
 ## Create genesis txs - PHASE 2
