@@ -97,10 +97,9 @@ tgrade gentx my-validator 0utgd 90000000utgd \
   --amount 0utgd \
   --vesting-amount 90000000utgd \
   --fees 10000utgd
-  --chain-id tgrade-dryrunnet \
-  --ip <public_ip> \ 
   --moniker my-validator \
   --node-id $(tgrade tendermint show-node-id) \
+  --chain-id tgrade-dryrunnet \
   --home /opt/validator/.tgrade
 ```
 node-idm pubkey and home values are just examples, please change it accordingly to your system/validator

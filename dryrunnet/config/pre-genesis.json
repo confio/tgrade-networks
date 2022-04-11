@@ -1,0 +1,1987 @@
+{
+  "genesis_time": "2022-04-13T15:00:01Z",
+  "chain_id": "tgrade-dryrunnet",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1cldeyrh80jlu23jkumh2tzpcwdu7ltscry2p2d",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade14g467q52uxq547erjcggnntrglmxfsejldnsk4",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade124562lhlrwjpay0cah0wuw5l43aqp5ay3suspc",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1wwsqslcarfzaqd4em38dtlffqg85frsh85dnmy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1k7f00pmt75j54mtkux8trye8azuzdurpfunuqt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "2099985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade124562lhlrwjpay0cah0wuw5l43aqp5ay3suspc",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "2099985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1wwsqslcarfzaqd4em38dtlffqg85frsh85dnmy",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade14g467q52uxq547erjcggnntrglmxfsejldnsk4",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k7f00pmt75j54mtkux8trye8azuzdurpfunuqt",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "3000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1cldeyrh80jlu23jkumh2tzpcwdu7ltscry2p2d",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "utgd",
+          "amount": "8062599325000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "globalfee": {
+      "params": {
+        "minimum_gas_prices": []
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "params": null,
+    "poe": {
+      "params": {
+        "historical_entries": 10000,
+        "initial_val_engagement_points": "0",
+        "min_delegation_amounts": []
+      },
+      "seed_contracts": true,
+      "gen_txs": [],
+      "system_admin_address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+      "contracts": [],
+      "engagement": [
+        {
+          "address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+          "points": "1"
+        },
+        {
+          "address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+          "points": "1"
+        },
+        {
+          "address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+          "points": "1"
+        },
+        {
+          "address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+          "points": "1"
+        },
+        {
+          "address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1cldeyrh80jlu23jkumh2tzpcwdu7ltscry2p2d",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+          "points": "1"
+        },
+        {
+          "address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+          "points": "1"
+        },
+        {
+          "address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+          "points": "1"
+        },
+        {
+          "address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+          "points": "1"
+        },
+        {
+          "address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+          "points": "1"
+        },
+        {
+          "address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+          "points": "1"
+        },
+        {
+          "address": "tgrade14g467q52uxq547erjcggnntrglmxfsejldnsk4",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+          "points": "1"
+        },
+        {
+          "address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+          "points": "1"
+        },
+        {
+          "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+          "points": "1"
+        },
+        {
+          "address": "tgrade124562lhlrwjpay0cah0wuw5l43aqp5ay3suspc",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+          "points": "1"
+        },
+	{
+	  "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+	  "points": "1"
+	}
+      ],
+      "stake_contract_config": {
+        "min_bond": "1",
+        "tokens_per_point": "1",
+        "unbonding_period": "1814400s",
+        "claim_autoreturn_limit": 20
+      },
+      "valset_contract_config": {
+        "min_points": "1",
+        "max_validators": 100,
+        "epoch_length": "60s",
+        "epoch_reward": {
+          "denom": "utgd",
+          "amount": "100000"
+        },
+        "scaling": 1,
+        "fee_percentage": "50.000000000000000000",
+        "community_pool_reward_ratio": "5.000000000000000000",
+        "engagement_reward_ratio": "47.500000000000000000",
+        "validator_reward_ratio": "47.500000000000000000",
+        "auto_unjail": false,
+        "double_sign_slash_ratio": "50.000000000000000000"
+      },
+      "engagement_contract_config": {
+        "halflife": "15552000s"
+      },
+      "bond_denom": "utgd",
+      "oversight_committee_contract_config": {
+        "name": "Oversight Community",
+        "escrow_amount": {
+          "denom": "utgd",
+          "amount": "1000000"
+        },
+        "voting_rules": {
+          "voting_period": 30,
+          "quorum": "51.000000000000000000",
+          "threshold": "55.000000000000000000",
+          "allow_end_early": true
+        },
+        "deny_list_contract_address": ""
+      },
+      "community_pool_contract_config": {
+        "voting_rules": {
+          "voting_period": 21,
+          "quorum": "10.000000000000000000",
+          "threshold": "60.000000000000000000",
+          "allow_end_early": true
+        }
+      },
+      "validator_voting_contract_config": {
+        "voting_rules": {
+          "voting_period": 14,
+          "quorum": "40.000000000000000000",
+          "threshold": "66.000000000000000000",
+          "allow_end_early": true
+        }
+      },
+      "oversightCommunityMembers": [
+        "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+        "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe",
+        "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+        "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+        "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+        "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+        "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+        "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+        "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+        "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+        "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+        "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+        "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+        "tgrade1wwsqslcarfzaqd4em38dtlffqg85frsh85dnmy"
+      ],
+      "arbiterPoolMembers": [
+        "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+        "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe"
+      ],
+      "arbiter_pool_contract_config": {
+        "name": "Arbiter Pool",
+        "escrow_amount": {
+          "denom": "utgd",
+          "amount": "1000000"
+        },
+        "voting_rules": {
+          "voting_period": 30,
+          "quorum": "51.000000000000000000",
+          "threshold": "55.000000000000000000",
+          "allow_end_early": true
+        },
+        "deny_list_contract_address": "",
+        "dispute_cost": {
+          "denom": "utgd",
+          "amount": "1000000"
+        },
+        "waiting_period": "0s"
+      }
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "wasm": {
+        "params": {
+          "code_upload_access": {
+            "permission": "Everybody",
+            "address": ""
+          },
+          "instantiate_default_permission": "Everybody",
+          "max_wasm_code_size": "1228800"
+        },
+        "codes": [],
+        "contracts": [],
+        "sequences": [],
+        "gen_msgs": []
+      },
+      "privileged_contract_addresses": [],
+      "pinned_code_ids": []
+    }
+  }
+}
