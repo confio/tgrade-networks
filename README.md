@@ -68,7 +68,7 @@ Get the genesis file and moved to the right location
 ```bash
 wget https://raw.githubusercontent.com/confio/public-testnets/main/dryrunnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
 ```
-( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
+( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
 ### Setup the right parameters and values on the TOML files
 Please edit the `config/app.toml` and `config/config.toml` accordingly
@@ -130,16 +130,16 @@ Get the genesis file and moved to the right location
 ```bash
 wget https://raw.githubusercontent.com/confio/public-testnets/main/dryrunnet/config/genesis.json -O ~/.tgrade/config/genesis.json
 ```
-( this will be the case the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
+( this will be the case if the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
 
 ### Start the syncing
 There are different ways to manage the tgrade binary on your validator,
 1. Setting up such binary to be managed by systemd, or
 2. Open a tmux or screen session and run tgrade start
 
-The synstax is:
+The syntax is:
 ```bash
 tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ```
-( this will be the case the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
+( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
