@@ -63,7 +63,7 @@ tgrade keys add my-validator --recover --home /opt/validator/.tgrade
 
 Into the mnemonic(s) used for your tgrade address
 
-### Get the pre-genesis file ( No available now, you have to wait till announcement and new commit )
+### Get the pre-genesis file
 Get the genesis file and moved to the right location
 ```bash
 wget https://raw.githubusercontent.com/confio/public-testnets/main/dryrunnet/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
@@ -102,7 +102,7 @@ tgrade gentx my-validator 0utgd 90000000utgd \
   --chain-id tgrade-dryrunnet \
   --home /opt/validator/.tgrade
 ```
-node-idm pubkey and home values are just examples, please change it accordingly to your system/validator
+node-id, pubkey and home values are just examples, please change it accordingly to your system/validator
 
 ### Upload your Gen_TX
 The above will create a gentx file. We are going to need it for the genesis collect.
