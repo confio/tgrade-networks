@@ -98,6 +98,7 @@ tgrade gentx my-validator 0utgd 90000000utgd \
   --vesting-amount 90000000utgd \
   --fees 10000utgd \
   --moniker my-validator \
+  --ip "<public ip>" \
   --node-id $(tgrade tendermint show-node-id) \
   --chain-id tgrade-dryrunnet \
   --home /opt/validator/.tgrade
