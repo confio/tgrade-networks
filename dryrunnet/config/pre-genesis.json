@@ -1042,6 +1042,46 @@
             "delegated_vesting": [],
             "end_time": "1697037690"
           }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
         }
       ]
     },
@@ -1155,6 +1195,15 @@
         },
         {
           "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
           "coins": [
             {
               "denom": "utgd",
@@ -1362,6 +1411,15 @@
         },
         {
           "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
           "coins": [
             {
               "denom": "utgd",
@@ -1607,7 +1665,7 @@
       "supply": [
         {
           "denom": "utgd",
-          "amount": "8062599325000"
+          "amount": "8064599295000"
         }
       ],
       "denom_metadata": []
@@ -1854,8 +1912,16 @@
           "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
           "points": "1"
         },
+        {
+          "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+          "points": "1"
+        },
 	{
-	  "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+	  "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+	  "points": "1"
+	},
+	{
+	  "address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
 	  "points": "1"
 	}
       ],
