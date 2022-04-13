@@ -124,7 +124,7 @@ git push origin master
 
 ## Start your Validator - PHASE 3
 
-### Get the final genesis file ( final genesis.json file will be provided at 07:00 UTC today 2022-04-13, Thank You )
+### Get the final genesis file
 Once we gather all the genesis txs. We will create the final version of the genesis file to be used on the network
 
 Get the genesis file and moved to the right location
