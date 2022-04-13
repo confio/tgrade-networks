@@ -1,0 +1,4826 @@
+{
+  "genesis_time": "2022-04-13T15:00:01Z",
+  "chain_id": "tgrade-dryrunnet",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1cldeyrh80jlu23jkumh2tzpcwdu7ltscry2p2d",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade14g467q52uxq547erjcggnntrglmxfsejldnsk4",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade124562lhlrwjpay0cah0wuw5l43aqp5ay3suspc",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1wwsqslcarfzaqd4em38dtlffqg85frsh85dnmy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1k7f00pmt75j54mtkux8trye8azuzdurpfunuqt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "utgd",
+                "amount": "285700000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1697037690"
+          }
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "2099985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade124562lhlrwjpay0cah0wuw5l43aqp5ay3suspc",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "2099985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1wwsqslcarfzaqd4em38dtlffqg85frsh85dnmy",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade14g467q52uxq547erjcggnntrglmxfsejldnsk4",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k7f00pmt75j54mtkux8trye8azuzdurpfunuqt",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "3000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1100000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1cldeyrh80jlu23jkumh2tzpcwdu7ltscry2p2d",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "999985000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "utgd",
+          "amount": "8064599295000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "globalfee": {
+      "params": {
+        "minimum_gas_prices": []
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "params": null,
+    "poe": {
+      "params": {
+        "historical_entries": 10000,
+        "initial_val_engagement_points": "0",
+        "min_delegation_amounts": []
+      },
+      "seed_contracts": true,
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "SkyNet | Validators",
+                  "identity": "1510797E867F484E",
+                  "website": "https://www.skynetvalidators.com",
+                  "security_contact": "skynet@skynetvalidators.com",
+                  "details": "We are a multi-blockchain validator supporting the Cosmos HUB as an enterprise class validator, Gravity Bridge and IBC relayer, and block explorer provider (https://www.skynetexplorers.com)."
+                },
+                "operator_address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "sIZHaAk5c6FH/441IUWGxOhFFYHGtz56TEGUWgsRT1g="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "00212f5d4d18d8c22d4a90894d97d8d06973c998@202.61.197.89:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AuFoNmf/mTg9E2AZU5YdaP7syjCQ7sz4mGmKwa1qeGJR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "gbK+BET0k5XJHzy7Z70ovioqPU8XUJsLq/tErU2S8VMzYJYTuOMovu2SikNwrQWEBYL5AhMp0pDpDlQylVc8eg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BotDotNet",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0TgsJ+kIFRCJM2lIPrRIsqkeXXjXJuyHCKnfuNdjen8="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "0d5329e5f4d45c04324343e94aece07ab0d3f952@65.21.237.29:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7uUSB7u0+o5pBBJFOaUTuV9t+/fARndLs9bIRoje+Lz"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "C2cY7Q+yYA3qdTXtJj8PPdrjv1UxewKRSYbHl3OiFekWWCaklnNpNadFTRnkk7LaKgE3n/PrCrLkxiB3ajo+Ig=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Baryon",
+                  "identity": "3115DDA1633A6964",
+                  "website": "https://www.baryon.capital/",
+                  "security_contact": "daniel@baryon.capital",
+                  "details": "Strengthen The Blockchain Ecosystem"
+                },
+                "operator_address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "c2dC95hcMtpX6xfTor3zy75YOvc8tpUmjBL1SVIGN58="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "0f8591de0071f44c21647c227e21b447dedef8a6@49.12.185.35:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A77pxlZHCMt1mVJB90VO6YljF4DqGDO0vQFdCW7Th7oS"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ozc3xOQ2NHTTeZbQhr9PvtDba+CfURKJf1+DNnGBGUQIhGgH8TIQ4sfI5aN7Y2wXhsu7jT7sgjD7I6sxNJ3dhA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "SpacePotato",
+                  "identity": "B41FCF161C4B971B",
+                  "website": "https://spacepotayto.carrd.co/",
+                  "security_contact": "",
+                  "details": "Vali-tater!"
+                },
+                "operator_address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Ezzm/Op7GGtVG73jsr3K9vggH8RZJH2H8PBRIKdcex8="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "134d5d6a6c44fe1c96ef0c5187b148dd2f52ada2@143.244.188.100:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/kqCbeus0iUdihcZ+o9S0Z/s2zIIIfHhm52Mr07CXx0"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "tvhAizBUcEG/n2wCDBDJNO3xsePi1bRSDjhobpddUbdRR95/O+4AmqdVOrcK4pZBTzM7+4bdr1I/VxXnmy6EMw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "garm99",
+                  "identity": "9CC146F5095DBCBE",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "/BSCgOnJZp8GPmLBo6UTfvoEKW8cwd9TviBt9QXNdoE="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "1821a9d7377a0ddf78381363fc879295250fe6e9@185.229.119.56:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AoIJkaAQqFKG2FOplMlmGeHR2bqA96BWz9OqgcVISwoe"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "lBX9jEWkiqDAiz6gnsjMrnNPnVoB1TWU01adSKVU8eJ56nhbuH8gcogesR5GYyWqCJ+eoc2wyzFfVfU1EUHe+A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "CafeValidator",
+                  "identity": "BC6258F6743B4411",
+                  "website": "https://cafevalidator.com",
+                  "security_contact": "security@cafevalidator.com",
+                  "details": "We prioritize best security practices, uptime, community engagement and rewards generation."
+                },
+                "operator_address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "RELC+P+1gkuDfmysQp2Qe5UCqzLXTCtze6U1QwFYZco="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "200c4907afb31a3abb94fe1f6d4cc212a7a02282@88.99.104.249:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A1awWDeXLh4xGLc60TIkvPAJjetaNcGMEE0t1HxWG1Rl"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "IzsaqrFSKlTyNIbDZaQ23znM8LmiBl1Rg15MJCWKnBpcElp2DM8yD7aqSZGLr7CIYYZhwenujvcOS4WGnxLEdw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "0base.vc",
+                  "identity": "67A577430DBBCEE0",
+                  "website": "https://0base.vc",
+                  "security_contact": "0@0base.vc",
+                  "details": "0base.vc is a validator who doesn't trust any blockchain; we validate it ourselves."
+                },
+                "operator_address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ODsxPHhMy0hW1exNVfCaYa+STTXMCMb82/Sq9SCO/IM="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "2186690d6b7d261a7cffdaae182d661a68d064ab@59.13.223.197:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ahb2xIC9hQ8Wm1ds5IxsSSUUMlNDcbVMMPRzHhrQOZw3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "bhw4mIbbBOTnggrmqB82ItMCiOqX17nMAbsVKYS+nf8TyCN+33QnwhErMMGOpezS5Ciy2WRWoaxQxelO5jQXVw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "freshtgrade",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "188rmuLdeMfX8Ml1JrKe1UtGa7EP9ZZBH1WdElAWZGI="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "2b42536117ccb0955378eabf5b92ac140bbe49bf@47.156.153.124:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2hYGyV4rZnlm2wWfKnCFKH3RLMxWhuFzbGDthShXmnP"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "juelhQG3cYutg88aNu+4UZmu9VhsOHpB+IQvxmgJNjs71n6UAW6ljKQATVBZQQVyNgdgGhWe0wkXrwQgSQ+KGw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "UbikCapital",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "wss5b6YRtGmJGuJOqgAEYR6LzhXETG1Bv/uiykzLlBQ="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "2d6d3ae50f7715b71134e5827d1965bb832cac4e@65.21.34.153:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7HfsP4QcK1mDESVyaT451aWNYy/exI3kZJQL1naEVN+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "z/pDGAp1DE8iM5BmUTWmYwrqzaXLlMUn8khqCsjvhP9rAQ6BwMKcAn0IGRc49O2U/0Un13lYbk1cv4YRwCdIZg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ATEAM",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "gdjmtCwaQD52+M2MFIN1bViNwIqsgximdWq1vKOfADE="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "303a03122120a8ff2e551a82b655e6c6464c16c9@13.57.180.203:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A3I88CWDXyavkaypQg27GnYfR1IsT7awmat2XxTj8VBX"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "bBP0zWhy8Cj47uaucWPH86C0dJjyt97XLP/8JmELgIsX9TkjF9hrjYiphwXzZmBZmY7T3x9DTEJf9um/pZTksw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Bit Cat",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "QAHcce4TMND0Ibi0xKlScJFlmp2KWajSIa9tzKsZ/2M="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "313a3f41b3227b0f72ce44d82d6428aa3bb00536@194.55.14.237:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/huIFuB9TpPWisEb4XubwXNrDB7gsbaOwB20DDZ/RFn"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "/hYfh7DKqNJlOjTBu1YLlSn4ceKXtzwgj6581v+FDFl0AoL9AXcIPKtie609K3vOwAh+//6thCNoYCotV3XLpg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-1",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "DCXeu6HXdMtGpUVKxjmepucUEt+38EZ04H/pDOdhXPA="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "285700000"
+                }
+              }
+            ],
+            "memo": "3d9c32ff539e536ffde9b0f95d9544a219da01f9@23.88.33.250:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aj/9IWoOcM5tnlEe5xs6COvY8J0I0wsSPfvuUfdAvlhP"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5nA797E9ub21DkllTyyuKdWIKrhaFHWuk8LeQMZ9xq9faHOFM8mPiw0oZRxoflAV8KYws/aeRVGPEGs0C4OWJA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakeWithUs",
+                  "identity": "609F83752053AD57",
+                  "website": "https://unagii.com",
+                  "security_contact": "node@stakewith.us",
+                  "details": "Secured Staking Made Easy. Put Your Crypto to Work - Hassle Free."
+                },
+                "operator_address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zmZk1JivgSpu2Um2IQvfKE8UhY+0vS+kafWA0uHo5UY="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "3f9f1a58f9b26acb63395cdcdb3b4ed5eabd56da@162.55.83.146:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AqfjtYaUxE1gHibJoMm8sGIzJYjIT3zxR/aAF9xj+WHl"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "czgotv34gTg6TV7lh7xBsv9w6NAA5y34yKBGRQDcishBjORX0I6X3FDQAWIfEvy3zeiKH8bASPkzePDpr2UJlw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "STAKECRAFT",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "4pbABGz4zJ6cAwXffGDMS8b1KVvJT47Re/Bg+fghZGc="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "40a8b90975a4b7b48c30d5a2d425b5a5f4776b7f@135.181.73.109:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A3Ibd/eDTK10AdHSqUe6u+p5tK78Ubo0WLLJDdTyUlH8"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "gcJ/j5HPTzjmHUbjrDv7KUzGNd3WIyeghSIkFT3c/WUOf6s3ydOOEyUepAM/ldWpMF62VNgLGZEjog+htFI8mw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "igval",
+                  "identity": "AC0CC23AD404DBD1",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0AyvWZ5KXHp/l4QB0tMKL1pZ7dvWv9iQEwcnBFsIGLo="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "713285000"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "285700000"
+                }
+              }
+            ],
+            "memo": "47376edf1ffe281adbbedd0b25b4c978fdf6ff44@95.217.28.13:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "An2/LhtoU2PvYpFoOYPclSt0xCNWbOSa7rnjonAg+FJG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Chd/OWgL/oK5zt5Lcrq+rmuXpdLnJ7+MTrYWM9ifz/NS/UgK8YvVFCFgbxzlRH+Faq8BPkowBUAEle64JzoJRg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "wave",
+                  "identity": "E5378C73E7776BA8",
+                  "website": "https://bity.hns.to/",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "g+2r0lKJ74KnohZaqruGr+3iI92zB5BJYLeSmAzfXzo="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "4cc801601c3c7f211aa3fe4e3245ec815afb6cd6@142.132.151.99:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AoEUpOGqEIHlRAAlK3a+4Qhj+8c+WkzvpiRpmjKlWskz"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "HyhxE9VrnAQtLj0T/Q90nI5o23zlTlwRfGIUnALocfFOIwut2CajbRz9HTw+hTrQs+u3g+ID6m1ohbehJq9Wug=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "jetlife",
+                  "identity": "325A1EA86C1E3B12",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zD3GvGMg8AiyN7LGP3miOOsmnM9KzsBR2WwxmS7jtwg="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "4f468b52229da4e76e71f6c9c23cbfac0cd87fe6@193.187.129.243:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A6RYdt8UOGt/8CiKGMsrrSwMeFQpMe0C9gfNILHelz6h"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "3MVxsKYabHGT38aUTAAk50zie5oeK6NikRWEC0V1zKNKD/uoZXjoFgFW3dcYkO54QW+n4RwZds16hDc8WC2rZA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Gayadeed",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "P7nsNlBFqDiC4s6PbIYVs4VmkU2pxc7LFPe3LWAZbXY="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "5731d7d993584b00f3ff0e2e6eb004b689800840@46.101.158.164:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AiZ0IEMphB+FO+25eHByt1u7JnGmbxSjfgWRj1g3Grdn"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ZzBN2I3uiTvTLxDXFRlX/XzcU+w2eYFcTV6NjKZWgDYCfsrz0QA1gGr4coXteWGomd0g3ZBMbiT3vZkdCzWsJg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-4",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "86KdnU0XSha2NwzRsisVG8HjLSErwjKlacih5MIhou4="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "285700000"
+                }
+              }
+            ],
+            "memo": "59856d77b628eadba45ab1928671ee0f5506c9fd@142.132.235.181:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aipo2CJG8xxd0uNimFuO5E6nho8TBgokXE1AMn6sTNsB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ABBG3HQRRlFr82rVoI9Xvb3TaYThyZM3qGPsE8iA6N0jFJfb7vYvdCM08fdLCFC4Dcu82AzxFsS9tDQoZbamEQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakeAngle",
+                  "identity": "0C2EBFF70582B725",
+                  "website": "https://stakeangle.com/",
+                  "security_contact": "info@stakeangle.com",
+                  "details": "Non-custodial staking provider"
+                },
+                "operator_address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "RrHEHm4XoO6I1+0duCxs3NgjEL9Spy3EB2T8fljblo0="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "5b5c0d316ca3024a81bd578be832584a38329752@45.94.58.81:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Alj73lUU48wLULKsBrq4jkRSGVkFjDeBmFHeRQmKb7ek"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "6Pfdv0iWxnG3U9uRAep3Se7ojYEUXLCOerjsop7/EUdsVa2z84tABjFjxUmP8xyvbBMrDfBaQ960OJrPGQN/rQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "NEOPLY",
+                  "identity": "5F91113ACF4DCD7E",
+                  "website": "https://neoply.io",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "fZAg9jck70XQC0vMZbuJdsC8Ow/TqKGrNvDUzNRcF2U="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "5fcf8e67273845f143e2432770a9e59de6694d94@35.74.142.210:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AvIHN9KNgPOsn0z6uhW5CadtUAxhwYyk5oQQZyXd0BMH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "JpxxCTewuMy4B8ADZ1C+OX0SHEnA0F1RPDWM+W2NAh0RBii2SggBtHypgkceBrqtsQh38wPb2+SFFAtKTcGhWw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "kingnodes",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ZHqF8XCceA6u4omhyPz1wYUQJcvq4+USi/I4vO8kLoM="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "6bd7825d909606760d299d219c9456b33c89389e@38.242.247.46:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhHs+4Sx10vIdWyHU0GU7Xn+ukDtNy0UeHdQ01jtOkKJ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "1eysZBqT6+vY19edXkBJ6R+rJMTRoJe0KhbUEnxTdycmBQd1hrXVvRPyKqIeWp09RzucvlRobRJge4J+46nWqw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Bulgakov | AnyValid.com",
+                  "identity": "6B71A4583EE43EB2",
+                  "website": "https://anyvalid.com/",
+                  "security_contact": "",
+                  "details": "Professional Proof-of-Stake Networks Validation Service"
+                },
+                "operator_address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "FnZLtEdL9er6x0+e8nu+owDj2CrJTxzjkB1Az79WYAE="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "6ddfc93e458230febdbd7c0b4b3f633fe6e98979@194.163.144.63:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtSrA0yZ453K1Y15lphHWIcFRgYyJSpg5rhdZiNLvkU0"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5MRld5EIywjpi+iyGDUanqZ2ob/TqYeVAt2oksQnqPdqvTHHC7YcHCkvHxT7jx9ffkStK/2LG8+3+8XGysgCCw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "DonRomero",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "efOGHUEN5G80z23SknFm3vKvcL9N7/E9lcs1Vpuf1wQ="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "74776a055d141cfe7ac0fbb8502bb20adc2f5860@157.90.244.242:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0VVKg5eEG456hU6eZDQUM41yTgNXXJ55z/rqmJqJaCb"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ieHc5N6sO7xTfjoI5dC1SUEnx47pXkf8zYltwba/bulGOG0mvw3s309FzJnDOkVhotKpArTTvJL+YdsDip7X4Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stake Source",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "GeJRaVOddmhpfGOm5v+d3br5t7e6xu4yX4EZJUl0s/U="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "74d67840be5c401a776cb434cb323ce802acf115@104.149.137.90:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8rvTa7XaXSTTPZTJmzAZfssNK76X0WnSpkav/CX0fw4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "HNbYj7ceylhDXa/qROgGcFMghkjoJQno4SJx1PNQJx0tw8u55OiEpDTGrbLwJ5FFNFRD4g3pFvpwwnHRttS1QA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "9QIsC1OK5IJ6qORHXy0DnlBuqux3dCfrU4Cz1IurLA8="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "285700000"
+                }
+              }
+            ],
+            "memo": "785028b4b09654bb70cae69821d5fab9639cdcb8@142.132.235.178:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+zD5bAGKOr+BJtEB9LZxgRU67cvy5m99WIy9Nb5t/B4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "TMQ03E2ryFvXwIs/pKJNv9YhEt2lCn5yimA3vN41bApw8AzPanIRtDmyyylBtQr+SoaYHEue3kYyLkQsAYFbhQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Forbole",
+                  "identity": "2861F5EE06627224",
+                  "website": "https://forbole.com/",
+                  "security_contact": "info@forbole.com",
+                  "details": "We are blockchain validators, builders, contributors, and your trusted partner in the future of decentralization."
+                },
+                "operator_address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "a0Xm0RMnnenplEpa/CDmt9HWlBnHEdZfGpMAKioiMRY="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "78bba6f87b8c30d67ff873789986cc97e57b13f3@66.228.51.59:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A//x8RM2O8D8Q737mnjo+SnGPzY6muG9Uz1E4DrlBv20"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5rK5B1Oy0PtDpGq5C7YyjHShFs43WCG74HT9o2Cpom9j3XmGP+jnLgwNwbIls4RfFlVmzkMlGdhCujfbE4Mctg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "stakr.space",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Nx+gkQjIgU7IyMpNPwNie/2qvQlXq6ePA2MymR/QoOQ="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "85461d8c62e3c4fdb2e4593654010819c7b12410@65.21.226.249:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A47cyheqxI6HUA5Qhk4ISfHSDe7HhUsHwBSDE60pS/xi"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "iZyyTN5Lpb0gR4hAml2O4hxsywdVd/FzhNElgsQFDDgzU4zxN8i77SSUQ+VD4yJ/MHbZYgJaE5YXKl8/pAY0Ig=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "bloqhub",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1CchD9pP+7/hWh9MwoD6aeR2/76MQYQC2r4CRugvrhY="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "97c8a274b8f38d5cac219029d291663b6ef551de@138.201.127.202:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A49Rirjl1IJSk7PvrXiOdiCPveGGWrlZkFMTqNm1kx77"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "l/AoS+WFgiGFeU2wnHOU3VJId7M0yimggceKhdkZKshAJswvJJSMEPRepHVfMndAY4jKmylVgQILVPhC28EIpw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "STC Capital",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2WHT/w9YoPek9vf0U80N4HrRlquyHdntbre6/W6xXCg="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "9c9423adcb3e81d25d2e9f0e895951e3609535eb@45.63.20.45:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aph35ZR162WMyl7wy6o9j76raRX3w1trBnvkaX8iPaUU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "yaYZVWAx8nyNEW37oyCM+Bhk2EREASbcFRN3McN+CdN3VJ4WPO4qO+MOgjm3EWwzzzvElgeumsLojG7TBg6aeg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Brightlystake",
+                  "identity": "545033B5FD01FC86",
+                  "website": "https://brightlystake.com",
+                  "security_contact": "",
+                  "details": "Tgrade Node from Brightlystake"
+                },
+                "operator_address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "OAMyryo26+MXISpJpprMQkenP85qIdCRBdfSGofe4bk="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "a0cac13c51eb3f96641f9a7d7cbd84da3bab28db@65.108.194.40:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ArhAgG8aqc7sUBKHMqcFQp7BKNytyYzYPDV5j/cRwDUO"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "q5Cop8VHkMieMTKd6sxBLXsNo6pIzeCWLE6cuFmcZ5R1w+XXiZhp8sYmNzius1EQtaoy6oN9WPCwiTAP6jM4ug=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Hsa7/Qy32d90hdBWtoT3mt3WCarbi6yIw9K30oI8AG0="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "285700000"
+                }
+              }
+            ],
+            "memo": "aab3c88c6201f5f2af7aca6876e5d22516ddbf19@142.132.235.180:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AvUHP6RayVMQsYkLdtJAwp1UkamlNuk0eAvOMMWYNDoC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "ptlnaLotQsBRbYkydJnjkhuydx8DREQnKVy7ghCH/BhhxqAkMKPJblDaN1kBEJRzBv6nfzUbv/khBT7jfruMMg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Figment",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "dI8GwXw1iHxyYfbVFjxA4TMiX+1a6cZA7nrFOyOsRjM="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "ae218ac2ab282f494da05963d6cc372fdadff339@143.110.222.114:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ArYPPeIfHWXECHIH6ieER61mXrZVe6+oakefKmdJb9dI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Dn24hew6ML9t13rf7FxTcR5tgywuG1RJCQbMugsj8ZI0deF+KeWXmMjP6hE4mUAjs2OG0Ttdd9uX4X4a7Dhm7g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Provalidator",
+                  "identity": "3A7D5C9B0B88BEA1",
+                  "website": "https://provalidator.com",
+                  "security_contact": "zenon@provalidator.com",
+                  "details": "Supporting Blockchain Infrastructure"
+                },
+                "operator_address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1l0k6IR5xm/b1HOG5jUxKbIJuURu0NSYUtFHPNkMPts="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "b58064a634214d4ee9080956bbac961b42d30065@54.184.41.92:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+97Ps392cBZa/yheVySS00Y6CXQE10do7oCFHiqMpeQ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Dr0jjbn2U/s4iAtQDLSBsSt1AYA482sHZZMcQZuxOiZLV6+eGAM7a4tdOCPnRIVhm90Py7JSvuOLRr8TBVI/1A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "KalpaTech",
+                  "identity": "2ABCBF8F9F31AF0E",
+                  "website": "https://kalpatech.co",
+                  "security_contact": "",
+                  "details": "KalpaTech | Genesis Validator Cosmos Hub | Game of Stakes winner | Services dedicated exclusively for Cosmos Ecosystem | Track record of 4 years in being a reliable and secure validator"
+                },
+                "operator_address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "j5jicCs0Jl0ANYgQj0URn5KP3pq9gRwXG7HO92MLpAg="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "bdd3828de4b750da5c1d42b21796f02a22f16ae2@173.249.40.87:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtFJWGcOcWgh0YnBsTSOZEEpBO49eTfALbIMArrez+XX"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "3kgOotLxjEgGS5rVxvpHeKvIIqmTs8txx2AFz6kfzoJvOcDwBGjCtB/6pUrlAf0scfvDhVeYraPfHZAqE9LinQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "B-Harvest",
+                  "identity": "8957C5091FBF4192",
+                  "website": "https://bharvest.io",
+                  "security_contact": "contact@bharvest.io",
+                  "details": "Provides secure validation services for dPoS networks"
+                },
+                "operator_address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "hoPXGWIc5gH0kLpvorP9dpnzp8xdXyjmheog6TcBNJ8="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "c43fdcc59863363bee6dd436c71936744beca9be@54.219.13.123:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2icxNmcyWMm9aeSYDPv2g5kvOU++eBDbAaW2yb9bokN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "P9WVNXEep5xYbwaBFxLqwjxw8+LUzLzHxpaufhdKJf1U6DrTPtEuJSHnwQqL+/NX2pZwm3l3Lg6QFSdOisvV9w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stakely.io",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "xAYscMb/Ve1erhWJky3L0V/rWIYfR6BIZEoO/oD3UNo="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "c99cce7de9738e0c3d8209f16f4bcd349965087c@65.108.79.246:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+gzKLd21L271yURpKHKp0OPWtDd9ga1XoTENqkvd8Rl"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "H8UxFWoMVlRXsBFAL81OPwVJtfNwuvIFxPciT881Aw5jwvCdGPElosGruAZVzkvp1gam4bT+2OkTzWntDvdrPA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "cryptech",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "kWwTpA7M5EMXmzuSUs13JOfuE1uSlQwbZIejjG2r2WI="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "dd00ba950506ab7d171ebadf5f0e02f9d27a0c8a@185.144.99.243:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AmwBplC6nLpmtj3bZtFfDJ0IEKfZLu68z0ZIH/c1rMvX"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Mi4uAz3xVPwHIHO1P9RNqb1x83olo8jR8s75DqfhZ8ZKQpEYmMcnrTq/2TnfPg4cyAhTQ4Ur8vrZUx1aKzCUoQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Nodeasy.com",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KBHCXDoQwY5InmhiddZqKjrrtj/o7xdEtT+zzR/Mrhc="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "e3b1f5bbff8bddd39f1434ac45d5aef18cc1102d@65.21.196.227:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AsfjMXz6IYUSS0lX7ocOE8nSlcz7YTprq6l7pWKGy7pM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "fX2FN0oQXWkUBC5Z6Es/UzFo/58f77/15z/Ic7vHOioC0k68eXcLvnoLu9yRZj6vNoS8d8ZrOgpLyledST1knA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "kaygal",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "a5sK4HQL0K0B/gzN4ZkXgeBnSn0hCQlOAo9rfp3Vq+U="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "e91c1f137774b28745fdf53e5454ab5db313a3d3@85.190.254.237:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A786ZuXgf7xWj4h0EtI16BADSXmt6VEs2x8MrvJZqtQZ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "6g4Q8neyGg4NlHF1LalWpaxJ3eLG/v/HGOAq2hteOzpaOofV1s8qSR2wDMEn2s0KXMcKOb2H3P+CUQ8W3qt25Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "cyberG",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "EKTm3EQIIDy7nMUxLcqr8u9OLx0MSYzbxwzCi8IGap4="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "eb65f2d5439a2ca1339548d6f469aaf730c525ce@141.95.65.26:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0fdUj9eH74Wh15FBq1qJdMz79KRkXWcX9V3CXFk9lws"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "nHiNZI/R9Wep404FJDrLtgfDCc6KWRFvi4UaF8R0CPpyrJNVHbmYOhOZ/xhJ234CgtjxY8m5ftZxRZrcXynsJg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "azstake",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "poav3nSC8NOF3b2vzwJ+2MBRzp4tlQ5IDj2jEvSTXFs="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "ec9d968d5f6d74de59e61e9de882d5370b774abb@168.119.89.31:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7qA1YbMRJhmlToWPQ72QhCJDgIjWgLQUctTTcdoJ2SR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "XUIhUmlh2x64sQtMuvmegnetlOwqc7s/O4ogbzjx17RZq7Te7YEnM3C0pEqIeYsnW7XlCU9kZJO+jrRospHXbw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "stakingcabin",
+                  "identity": "",
+                  "website": "https://stakingcabin.com",
+                  "security_contact": "richard@stakingcabin.com",
+                  "details": "StakingCabin"
+                },
+                "operator_address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oDYOC2qWllXEXn/Nn4OBxCa9MsA5Aql+sEAXm1UIV5U="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "ed283964bf3e5aca9c8418075641551977678373@3.137.136.10:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AiWR5jPvR9PiaM0vBBcBqx3v5wYXbMAAaFV33Hj+ufWt"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "nz+PgZomQM5Phw/Z09dHVLWGvCGMDYUwc/hP3PcQ4Rte58r7A5hulI5pacEHxCa8ZtwmHS1xqQM1en72FK8AFQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "OpenTech Staking",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "c0I0pK7s95BxGphVbVR1INRYG6JC18JhZ/Dk+Pw+zBQ="
+                },
+                "amount": {
+                  "denom": "utgd",
+                  "amount": "0"
+                },
+                "vesting_amount": {
+                  "denom": "utgd",
+                  "amount": "90000000"
+                }
+              }
+            ],
+            "memo": "f6ed1ec379f3d61d00b20444a5ba2d62eb3fe160@167.235.1.240:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AxhaEdOVGLgP4E62X5pVbb9zuLjVzqD4+weA12QZYgM6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "utgd",
+                  "amount": "10000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "LljZ8DQUGgc0cg5onh4Gezhte81ihrdaJqyMOQriCypTRFen/a6/XmmoTd3CNI2TJxleeTaWMnOr27XqgsYpLg=="
+          ]
+        }
+      ],
+      "system_admin_address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+      "contracts": [],
+      "engagement": [
+        {
+          "address": "tgrade165hglzys64nsuep2kuxs2vkcxrqyf3e9tfnm3c",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1kkpsty532v7qsmj7shsw8qg0h3yn8adg2t9m2y",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1v5war399r38deju9ywrffwrmtrsjevutr42enz",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1j9fyste8leypqv5g08uk55k00sjhqn5ja63fvv",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1z0t7kzx0xyvl9xmurfws73llzwy7d3cwzemmdj",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1dz487qtggarfaxja70grhs3lgfv02mpn0l9f3j",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1quw3zpwklv3l4ntpfj37c2tx4393ly03tnfc98",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1wnkcgn7jxu4afluukrag5vvah6nmn630qjwfsp",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+          "points": "1"
+        },
+        {
+          "address": "tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1d7hta3z6qjkr5hkaqpmsnvh3kd6u09h89dfmtl",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1kxje3yxppy6rlsldj597k8u9dsn059rgy2ap4w",
+          "points": "1"
+        },
+        {
+          "address": "tgrade142zqwsm2vh2pme4w6gyydgf3mrmv3rx33fkmfx",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1ydw2lp4gcxn8qv09qe8w5qdpgt8qeu30gpf392",
+          "points": "1"
+        },
+        {
+          "address": "tgrade18uvsa2m93xkewwg60eylvx27c6qfa3675zfsjj",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1w0vcspwplngzr4p880j7dlgtv207zsz79acvgh",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1958q2umpaglua3v3uph3lf77l3wmttxf4ecd6f",
+          "points": "1"
+        },
+        {
+          "address": "tgrade16qsg7lnyqnfx7u8p4p0cum0wymeug2kxrgjk0f",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1q5q2fkxd92n8da8e4ja9mfcl9cesfg7e6l9rud",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1uv6zhlpv669stdrm37uedl3pj7ham8mcndjhem",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1cldeyrh80jlu23jkumh2tzpcwdu7ltscry2p2d",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1c8xa9nxxuvgd32put8qqmd33r29hwuq2ptzh36",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1l8y98p44d8d2jgn6cpw9xdnhrlrxvakgw2kmyj",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1hfhafvj4l8dvh695ntsrdllqrus44s5rfwvc3f",
+          "points": "1"
+        },
+        {
+          "address": "tgrade19w2488ntfgpduzqq3sk4j5x387zynwknc3c00a",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1k8efqy9seesd0dcvr7207nmmlkfz944p97fypq",
+          "points": "1"
+        },
+        {
+          "address": "tgrade16g4x972lvchrpc7zgtfad3sjqe3nw5njmuk7rp",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1ugqc6zl40sn08yf0n96ph2r66snm4335fu974h",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1s3366h2rpwhvlt0w0x49ssyh27778dyztnsz3g",
+          "points": "1"
+        },
+        {
+          "address": "tgrade14gykr7mw52q2rvwtpk9z77d9n9s60amus6m420",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1rzh4fz80u947achfaq4q3n570cp0tprj9r8asn",
+          "points": "1"
+        },
+        {
+          "address": "tgrade16p2h8swzsa0lt25rgv0mc86jahrwm8xml9pmf3",
+          "points": "1"
+        },
+        {
+          "address": "tgrade183stha7rgm5yz7dz4d3ac65zns06t27tmgafaw",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1fq6fk2a3w7c0ze9yuanqpuwx75lqyh30zepcd5",
+          "points": "1"
+        },
+        {
+          "address": "tgrade14g467q52uxq547erjcggnntrglmxfsejldnsk4",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1jr6vek0lj7q6rht7d9q2q400cn2dn9amcu0w8w",
+          "points": "1"
+        },
+        {
+          "address": "tgrade14k3tn0sz4q4f7mwtuhwc8j5jpdnjgv6ygwvep8",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1v309hn3f0p5qp40zvul2aepggcdafuxcuzz9cy",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1h465wht8xrph73fqfdkyfnpzz5hnr47w6w5gtr",
+          "points": "1"
+        },
+        {
+          "address": "tgrade15dhtefgwc6m0lt5mafm0g2xzd58yjl328vtpwp",
+          "points": "1"
+        },
+        {
+          "address": "tgrade124562lhlrwjpay0cah0wuw5l43aqp5ay3suspc",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1znpc68annn73p2kyyqthwlyy25mgzmu865vttg",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1a0lvf3juxyts9theftuqq3ac6lv7dtkg7yzp2l",
+          "points": "1"
+        },
+        {
+          "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+          "points": "1"
+        },
+        {
+          "address": "tgrade157hx0r5wjcjtzzsxfnqep9p4c3ear7syp9a5f2",
+          "points": "1"
+        }
+      ],
+      "stake_contract_config": {
+        "min_bond": "1",
+        "tokens_per_point": "1",
+        "unbonding_period": "1814400s",
+        "claim_autoreturn_limit": 20
+      },
+      "valset_contract_config": {
+        "min_points": "1",
+        "max_validators": 100,
+        "epoch_length": "60s",
+        "epoch_reward": {
+          "denom": "utgd",
+          "amount": "100000"
+        },
+        "scaling": 1,
+        "fee_percentage": "50.000000000000000000",
+        "community_pool_reward_ratio": "5.000000000000000000",
+        "engagement_reward_ratio": "47.500000000000000000",
+        "validator_reward_ratio": "47.500000000000000000",
+        "auto_unjail": false,
+        "double_sign_slash_ratio": "50.000000000000000000"
+      },
+      "engagement_contract_config": {
+        "halflife": "15552000s"
+      },
+      "bond_denom": "utgd",
+      "oversight_committee_contract_config": {
+        "name": "Oversight Community",
+        "escrow_amount": {
+          "denom": "utgd",
+          "amount": "1000000"
+        },
+        "voting_rules": {
+          "voting_period": 30,
+          "quorum": "51.000000000000000000",
+          "threshold": "55.000000000000000000",
+          "allow_end_early": true
+        },
+        "deny_list_contract_address": ""
+      },
+      "community_pool_contract_config": {
+        "voting_rules": {
+          "voting_period": 21,
+          "quorum": "10.000000000000000000",
+          "threshold": "60.000000000000000000",
+          "allow_end_early": true
+        }
+      },
+      "validator_voting_contract_config": {
+        "voting_rules": {
+          "voting_period": 14,
+          "quorum": "40.000000000000000000",
+          "threshold": "66.000000000000000000",
+          "allow_end_early": true
+        }
+      },
+      "oversightCommunityMembers": [
+        "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+        "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe",
+        "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+        "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+        "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+        "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+        "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+        "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+        "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+        "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+        "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+        "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+        "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+        "tgrade1wwsqslcarfzaqd4em38dtlffqg85frsh85dnmy"
+      ],
+      "arbiterPoolMembers": [
+        "tgrade1j6smnm0czjaz8eq3d66yzpt3jxlp755zh5t3ng",
+        "tgrade1vrq3kjq95kkh26vp3g6sfx84xzw654qa4kg2pe"
+      ],
+      "arbiter_pool_contract_config": {
+        "name": "Arbiter Pool",
+        "escrow_amount": {
+          "denom": "utgd",
+          "amount": "1000000"
+        },
+        "voting_rules": {
+          "voting_period": 30,
+          "quorum": "51.000000000000000000",
+          "threshold": "55.000000000000000000",
+          "allow_end_early": true
+        },
+        "deny_list_contract_address": "",
+        "dispute_cost": {
+          "denom": "utgd",
+          "amount": "1000000"
+        },
+        "waiting_period": "0s"
+      }
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "wasm": {
+        "params": {
+          "code_upload_access": {
+            "permission": "Everybody",
+            "address": ""
+          },
+          "instantiate_default_permission": "Everybody",
+          "max_wasm_code_size": "1228800"
+        },
+        "codes": [],
+        "contracts": [],
+        "sequences": [],
+        "gen_msgs": []
+      },
+      "privileged_contract_addresses": [],
+      "pinned_code_ids": []
+    }
+  }
+}
