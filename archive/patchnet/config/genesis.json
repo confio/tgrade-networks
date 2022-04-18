@@ -1,0 +1,824 @@
+{
+  "genesis_time": "2022-02-22T16:00:01Z",
+  "chain_id": "tgrade-patchnet-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "100000000000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1409g6lznr70rqstrwulc0dd4385n67g7xhpda0",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade16khejwtfudqaqk0emerhl0l6zrjl5u5sns4kv4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1w30h43ajms6lq99hurhhwf8qawpnj6axk9zgxh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade10w4jaahlq8x0z7va386sxfr53cy2m6t04wu3s4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade182ht3gp5mj3tzt4du8tjx5a9e0fymzdwe9ey55",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1hekdjvsyzhpu2eewkf58n0w0aqtxrkc85ffv6z",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1xvxzrk6exet7lvq99vm3rnyhtlmzrsjk69dyl5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1k7f00pmt75j54mtkux8trye8azuzdurpfunuqt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "tgrade1psaupqm0nwq5lzv69hj8ggldgt9szx4eh7vw2u",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1y590jm8pu5k7zetqw7f609t59rj86sy9ffuay8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ycxsgh6uyunvftl7dxdpn8ema79vc8vrlxcesf",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ylrt7dqjz0vmr3h2e53q3h74jrjxfwf4ehk635",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1xvxzrk6exet7lvq99vm3rnyhtlmzrsjk69dyl5",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade182ht3gp5mj3tzt4du8tjx5a9e0fymzdwe9ey55",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1gejtcyaaunl7gjw82qwxu6czz46t8qj27v2w9j",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1fec5kv7t7vp3xax3lntdwrhup94x49ch294539",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade122j8ap2va22xgy7nzl730mgdlseqpr642u9wx8",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1dcr2sh4vtnzrqef2t6x39yu3u0uwxj9zrr9dyk",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1w30h43ajms6lq99hurhhwf8qawpnj6axk9zgxh",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade10w4jaahlq8x0z7va386sxfr53cy2m6t04wu3s4",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1jwa79m20ah9vt72fhtlxdsn0qtldkngqgzgple",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1409g6lznr70rqstrwulc0dd4385n67g7xhpda0",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "90983000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k32fygcgllx0syte70dffvl9n9le28su9djdcf",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1k7f00pmt75j54mtkux8trye8azuzdurpfunuqt",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1hekdjvsyzhpu2eewkf58n0w0aqtxrkc85ffv6z",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1ceeuek509sm74thdqsvmyx6vjzraw2yt4ckulj",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade1c63ph6d6pjq07nldpa3jgnap63l35jexmuppg2",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "tgrade16khejwtfudqaqk0emerhl0l6zrjl5u5sns4kv4",
+          "coins": [
+            {
+              "denom": "utgd",
+              "amount": "1000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "utgd",
+          "amount": "100000000000000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "utgd",
+        "amount": "1000"
+      }
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "globalfee": {
+      "params": {
+        "minimum_gas_prices": []
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "params": null,
+    "poe": {
+      "params": {
+        "historical_entries": 10000,
+        "initial_val_engagement_points": "0",
+        "min_delegation_amounts": []
+      },
+      "seed_contracts": true,
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-2",
+                  "identity": "",
+                  "website": "https://confio.gmbh",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade16khejwtfudqaqk0emerhl0l6zrjl5u5sns4kv4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ceQj9m3bI7mITMmts1d5d923WKFll7vWfbCMLqkFDBw="
+                },
+                "value": {
+                  "denom": "utgd",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "158ee6cd8578a057a56eccf10f57ce80d54f79e4@10.0.0.5:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7PuBK+uB4+QLDgLi1lrYWOkdtyYAExjx9Yh/xrNCOs8"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Gu+vD/tjwfGWZDenenQvahvLCYgCkn0FaGLMzhZV5HpGySOK1xR2NDAN2v81mVS4N+w41rhM9Dir7SSxNKDAzw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-1",
+                  "identity": "",
+                  "website": "https://confio.gmbh",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1409g6lznr70rqstrwulc0dd4385n67g7xhpda0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "H4K8yk0D8pN8D3tEj0KuG3Xf1GuqRxFTrhtLskCFyhM="
+                },
+                "value": {
+                  "denom": "utgd",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "5ae010cf29e57b5d59d27d41072baf017da4479a@10.0.0.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5iZvsY26jA7QTqbctar2swCUSG3x7ze5JTlrnPUPAov"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "0+kzZJ0i6U/jROrhTzHIFEaHgWTf+naLx9M68IXJY1El/+sdFuFNXrR6GJnc2cFyPEoaYQDhiCGa5sG48KXfeg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-4",
+                  "identity": "",
+                  "website": "https://confio.gmbh",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade10w4jaahlq8x0z7va386sxfr53cy2m6t04wu3s4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "EPIX06O8pYwSZVVst5A8gIinc516bkh/Oqnkm+VWn68="
+                },
+                "value": {
+                  "denom": "utgd",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "c3cc2a16a212c4c080da59946ceba61ec40c538c@10.0.0.7:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/PN5mDf4SjFNjgq0r+MXjmczgKE1iPHr7TSj88POjID"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "5R2OW+BUm5TMNh90dqgyBRpQnqYXUFx/33Cf6WoYXbJsgtHNsgtJ/WLG7KSldijt2Wt1JVF2Mv1bYz8PxRZq4Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/confio.poe.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-3",
+                  "identity": "",
+                  "website": "https://confio.gmbh",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "operator_address": "tgrade1w30h43ajms6lq99hurhhwf8qawpnj6axk9zgxh",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "YZOaFK0YTDtjdoBM2uubdnVoH4AOul7Di6MUmh0dsfE="
+                },
+                "value": {
+                  "denom": "utgd",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "f6867740acd23a3c6cabffe442cc02db9a293690@10.0.0.11:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5uuxokzt2W89Z+BCKwDdANESJ5KI971H3MMQQ1/whd/"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "vOqcu3wufwrDTVHz9/h92WQlFUUtCS2p830u29X+tPgI2RqcnB/yRZ77h7qLD2cOoFRb/M5ZskA11axSboNr+Q=="
+          ]
+        }
+      ],
+      "system_admin_address": "tgrade1kwc9ds5t03xkhx49qwkwq3z2tqzhxxqtrwv780",
+      "contracts": [],
+      "engagement": [
+        {
+          "address": "tgrade1409g6lznr70rqstrwulc0dd4385n67g7xhpda0",
+          "points": "1500"
+        },
+        {
+          "address": "tgrade16khejwtfudqaqk0emerhl0l6zrjl5u5sns4kv4",
+          "points": "1500"
+        },
+        {
+          "address": "tgrade1w30h43ajms6lq99hurhhwf8qawpnj6axk9zgxh",
+          "points": "1500"
+        },
+        {
+          "address": "tgrade10w4jaahlq8x0z7va386sxfr53cy2m6t04wu3s4",
+          "points": "1500"
+        },
+        {
+          "address": "tgrade1tkgvwuns7l7vkpc0pq2nnjkkdz509vwrzf86sw",
+          "points": "500"
+        },
+        {
+          "address": "tgrade182ht3gp5mj3tzt4du8tjx5a9e0fymzdwe9ey55",
+          "points": "500"
+        },
+        {
+          "address": "tgrade1hekdjvsyzhpu2eewkf58n0w0aqtxrkc85ffv6z",
+          "points": "500"
+        },
+        {
+          "address": "tgrade1xcvzlsdrsppcrd5u0dg9kdhjm4ytm7xelylv47",
+          "points": "500"
+        }
+      ],
+      "stake_contract_config": {
+        "min_bond": "1",
+        "tokens_per_point": "1",
+        "unbonding_period": "1814400s",
+        "claim_autoreturn_limit": 20
+      },
+      "valset_contract_config": {
+        "min_points": "1",
+        "max_validators": 100,
+        "epoch_length": "60s",
+        "epoch_reward": {
+          "denom": "utgd",
+          "amount": "100000"
+        },
+        "scaling": 1,
+        "fee_percentage": "50.000000000000000000",
+        "community_pool_reward_ratio": "5.000000000000000000",
+        "engagement_reward_ratio": "47.500000000000000000",
+        "validator_reward_ratio": "47.500000000000000000",
+        "auto_unjail": false,
+        "double_sign_slash_ratio": "50.000000000000000000"
+      },
+      "engagement_contract_config": {
+        "halflife": "15552000s"
+      },
+      "bond_denom": "utgd",
+      "oversight_committee_contract_config": {
+        "name": "Oversight Community",
+        "escrow_amount": {
+          "denom": "utgd",
+          "amount": "1000000000"
+        },
+        "voting_rules": {
+          "voting_period": 4,
+          "quorum": "51.000000000000000000",
+          "threshold": "55.000000000000000000",
+          "allow_end_early": true
+        },
+        "deny_list_contract_address": ""
+      },
+      "community_pool_contract_config": {
+        "voting_rules": {
+          "voting_period": 4,
+          "quorum": "10.000000000000000000",
+          "threshold": "60.000000000000000000",
+          "allow_end_early": true
+        }
+      },
+      "validator_voting_contract_config": {
+        "voting_rules": {
+          "voting_period": 4,
+          "quorum": "40.000000000000000000",
+          "threshold": "66.000000000000000000",
+          "allow_end_early": true
+        }
+      }
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "wasm": {
+        "params": {
+          "code_upload_access": {
+            "permission": "Everybody",
+            "address": ""
+          },
+          "instantiate_default_permission": "Everybody",
+          "max_wasm_code_size": "1228800"
+        },
+        "codes": [],
+        "contracts": [],
+        "sequences": [],
+        "gen_msgs": []
+      },
+      "privileged_contract_addresses": [],
+      "pinned_code_ids": []
+    }
+  }
+}
