@@ -156,8 +156,8 @@ You can get tokens by login for first time into the Tgrade WebApp:
 ### Upgrade to a validator
 Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain.
 
-First, in case you don't have engagement points previosly assigned, you need to ask for a Proposal to the Oversight Community for `Grant Engagement Points`
-Second, when the first condition is done, you run the following command syntax:
+If you don't have engagement points previosly assigned, you need to ask for a Proposal to the Oversight Community for `Grant Engagement Points` \
+and when the above condition is completed, you run the following command syntax:
 ```bash
 tgrade tx poe create-validator \
   --amount 0utgd \
