@@ -3,7 +3,7 @@ We have already assigned external validators for the task and not accepting newc
 
 # Tgrade - Dryrunnet
 
-You can see the live network via our [block explorer](https://dryrunnet.aneka.io). (Soon) \
+You can see the live network via our [block explorer](https://dryrunnet.aneka.io). \
 When you are ready to build a node, follow the instructions below:
 
 ## Hardware Requirements
