@@ -173,3 +173,11 @@ tgrade tx poe create-validator \
 Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
 https://dryrunnet.aneka.io/
 
+### ( Optional )
+If you want to delegate an amount of liquid and/or vesting coins from your wallet to a validator:
+
+tgrade tx poe self-delegate 100000000utgd 900000000utgd \
+  --from <validator-address> \
+  --chain-id tgrade-patchnet-1 \
+  --fees 10000utgd \
+  --node https://rpc.patchnet-1.tgrade.io:443
