@@ -144,3 +144,32 @@ tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ```
 ( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
+## Upgrade to a validator after Genesis - PHASE 4 ( Optional )
+In case, you are selected but was not here during the genesis period ( PHASE 1-2 ) \
+You can become a validator by following the next steps:
+
+### Get some tokens
+You can get tokens by login for first time into the Tgrade WebApp:
+1. [Tgrade application](https://dapp.tgrade.finance),
+2. or ask on the discord channel: [genesis-validators](https://discord.com/channels/844486286445903872/963740837093720094)
+
+### Upgrade to a validator
+Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain.
+
+First, in case you don't have engagement points previosly assigned, you need to ask for a Proposal to the Oversight Community for `Grant Engagement Points`
+Second, when the first condition is done, you run the following command syntax:
+```bash
+tgrade tx poe create-validator \
+  --amount 0utgd \
+  --vesting-amount 900000000utgd \ 
+  --from <validator-address> \
+  --pubkey $(tgrade tendermint show-validator) \
+  --chain-id tgrade-dryrunnet \
+  --moniker "<your-validator-name>" \
+  --fees 10000utgd \
+  --node https://rpc.dryrunnet.tgrade.confio.run:443
+```
+
+Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
+https://dryrunnet.aneka.io/
+
