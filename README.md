@@ -175,9 +175,11 @@ https://dryrunnet.aneka.io/
 
 ### ( Optional )
 If you want to delegate an amount of liquid and/or vesting coins from your wallet to a validator:
-
+```bash
 tgrade tx poe self-delegate 100000000utgd 900000000utgd \
   --from <validator-address> \
   --chain-id tgrade-patchnet-1 \
   --fees 10000utgd \
-  --node https://rpc.patchnet-1.tgrade.io:443
+  --node https://rpc.dryrunnet.tgrade.confio.run:443
+```
+
