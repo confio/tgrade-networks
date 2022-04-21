@@ -166,7 +166,7 @@ tgrade tx poe create-validator \
   --pubkey $(tgrade tendermint show-validator) \
   --chain-id tgrade-dryrunnet \
   --moniker "<your-validator-name>" \
-  --fees 10000utgd \
+  --fees 20000utgd \
   --node https://rpc.dryrunnet.tgrade.confio.run:443
 ```
 
