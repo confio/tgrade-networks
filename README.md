@@ -178,7 +178,7 @@ If you want to delegate an amount of liquid and/or vesting coins from your walle
 ```bash
 tgrade tx poe self-delegate 100000000utgd 900000000utgd \
   --from <validator-address> \
-  --chain-id tgrade-patchnet-1 \
+  --chain-id tgrade-dryrunnet \
   --fees 10000utgd \
   --node https://rpc.dryrunnet.tgrade.confio.run:443
 ```
