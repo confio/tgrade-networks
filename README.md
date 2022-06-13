@@ -47,6 +47,7 @@ As an official announcement, we can start the process at the moment:
 - gathering the correct info,
 - getting the pre-genesis file ready,
 - and submitting a gen tx in a few days.
+
 But we will ask you to recompile the binary once the final version of tgrade 0.10.0 is available.
 
 ## Setting up a Genesis Tgrade Validator - PHASE 1
