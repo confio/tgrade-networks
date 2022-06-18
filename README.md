@@ -126,7 +126,7 @@ The above will create a gentx file. We are going to need it for the genesis coll
 ```bash
 git clone https://github.com/<your_github_username>/public-testnets
 cd public-testnets
-git add public-testnets/dryrunnet/config/gentx/
+git add public-testnets/mainnet-1/config/gentx/
 git commit -am "<your validator name> - gentx - comment"
 git push origin master
 ```
