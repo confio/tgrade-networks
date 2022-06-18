@@ -1,4 +1,4 @@
-If you find this Repo, be aware it is a semi-public testnet. \
+If you find this Repo, this is for the Tgrade mainnet preparation. \
 We have already assigned external validators for the task and not accepting newcomers. Thank you
 
 # Tgrade - MainNet-1
