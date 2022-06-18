@@ -1,6 +1,3 @@
-If you find this Repo, be aware it is a semi-public testnet. \
-We have already assigned external validators for the task and not accepting newcomers. Thank you
-
 # Tgrade - MainNet-1
 
 You can see the live network via our [block explorer](). \
