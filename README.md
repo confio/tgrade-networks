@@ -1,6 +1,3 @@
-If you find this Repo, this is for the Tgrade mainnet preparation. \
-We have already assigned external validators for the task and not accepting newcomers. Thank you
-
 # Tgrade - MainNet-1
 
 You can see the live network via our [block explorer](). \
@@ -47,6 +44,7 @@ As an official announcement, we can start the process at the moment:
 - gathering the correct info,
 - getting the pre-genesis file ready,
 - and submitting a gen tx in a few days.
+
 But we will ask you to recompile the binary once the final version of tgrade 0.10.0 is available.
 
 ## Setting up a Genesis Tgrade Validator - PHASE 1
@@ -125,7 +123,7 @@ The above will create a gentx file. We are going to need it for the genesis coll
 ```bash
 git clone https://github.com/<your_github_username>/public-testnets
 cd public-testnets
-git add public-testnets/dryrunnet/config/gentx/
+git add public-testnets/mainnet-1/config/gentx/
 git commit -am "<your validator name> - gentx - comment"
 git push origin master
 ```
