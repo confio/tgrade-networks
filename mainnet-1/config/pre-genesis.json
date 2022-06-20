@@ -283,7 +283,7 @@
             "original_vesting": [
               {
                 "denom": "utgd",
-                "amount": "132242000000"
+                "amount": "132240000000"
               }
             ],
             "delegated_free": [],
@@ -3536,7 +3536,12 @@
     },
     "globalfee": {
       "params": {
-        "minimum_gas_prices": []
+        "minimum_gas_prices": [
+          {
+            "denom": "utgd",
+            "amount": "0.05"
+          }
+        ]
       }
     },
     "ibc": {
@@ -3903,10 +3908,10 @@
           "name": "Oversight Community",
           "escrow_amount": {
             "denom": "utgd",
-            "amount": "1000000"
+            "amount": "5000000000"
           },
           "voting_rules": {
-            "voting_period": 30,
+            "voting_period": 21,
             "quorum": "51.000000000000000000",
             "threshold": "55.000000000000000000",
             "allow_end_early": true
@@ -3923,7 +3928,7 @@
         },
         "validator_voting_contract_config": {
           "voting_rules": {
-            "voting_period": 14,
+            "voting_period": 21,
             "quorum": "40.000000000000000000",
             "threshold": "66.000000000000000000",
             "allow_end_early": true
