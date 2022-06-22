@@ -3888,7 +3888,7 @@
           "epoch_length": "120s",
           "epoch_reward": {
             "denom": "utgd",
-            "amount": "100000"
+            "amount": "22815911"
           },
           "scaling": 1,
           "fee_percentage": "50.000000000000000000",
