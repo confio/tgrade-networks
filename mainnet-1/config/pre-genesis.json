@@ -4039,7 +4039,7 @@
             "amount": "5000000000"
           },
           "voting_rules": {
-            "voting_period": 21,
+            "voting_period": 14,
             "quorum": "51.000000000000000000",
             "threshold": "55.000000000000000000",
             "allow_end_early": true
@@ -4049,8 +4049,8 @@
         "community_pool_contract_config": {
           "voting_rules": {
             "voting_period": 21,
-            "quorum": "10.000000000000000000",
-            "threshold": "60.000000000000000000",
+            "quorum": "40.000000000000000000",
+            "threshold": "50.01000000000000000",
             "allow_end_early": true
           }
         },
@@ -4085,7 +4085,7 @@
           "name": "Arbiter Pool",
           "escrow_amount": {
             "denom": "utgd",
-            "amount": "1000000"
+            "amount": "100000000"
           },
           "voting_rules": {
             "voting_period": 30,
@@ -4098,7 +4098,7 @@
             "denom": "utgd",
             "amount": "1000000"
           },
-          "waiting_period": "0s"
+          "waiting_period": "864000s"
         },
         "mixer_contract_config": {
           "sigmoid": {
