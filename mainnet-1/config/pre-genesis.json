@@ -3551,7 +3551,6 @@
         "clients_metadata": [],
         "params": {
           "allowed_clients": [
-            "06-solomachine",
             "07-tendermint"
           ]
         },
