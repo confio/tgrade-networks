@@ -1516,26 +1516,6 @@
           "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "tgrade19g64psls2eqwd34nu03c2pcc45jptzxpmwmzu9",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "utgd",
-                "amount": "285000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1703435178"
-          }
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
               "address": "tgrade1cxmsyzr90qh85gwgwnvptukhk2tvvhq6t4dr2a",
               "pub_key": null,
               "account_number": "0",
@@ -3693,10 +3673,6 @@
           },
           {
             "address": "tgrade1jdc8qm80m3lvgajuvn36x2nmxfjauclxtyp7rg",
-            "points": "2000"
-          },
-          {
-            "address": "tgrade19g64psls2eqwd34nu03c2pcc45jptzxpmwmzu9",
             "points": "2000"
           },
           {
