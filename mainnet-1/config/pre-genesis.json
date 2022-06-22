@@ -3885,7 +3885,7 @@
         "valset_contract_config": {
           "min_points": "1",
           "max_validators": 100,
-          "epoch_length": "60s",
+          "epoch_length": "120s",
           "epoch_reward": {
             "denom": "utgd",
             "amount": "100000"
