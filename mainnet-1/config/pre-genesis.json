@@ -2728,15 +2728,6 @@
           ]
         },
         {
-          "address": "tgrade19g64psls2eqwd34nu03c2pcc45jptzxpmwmzu9",
-          "coins": [
-            {
-              "denom": "utgd",
-              "amount": "285714000000"
-            }
-          ]
-        },
-        {
           "address": "tgrade19sv8y27mmf86qau75vfgvw7ahrrvynwfe0aauf",
           "coins": [
             {
