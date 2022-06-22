@@ -3582,7 +3582,7 @@
         "interchain_accounts": [],
         "ports": [],
         "params": {
-          "controller_enabled": true
+          "controller_enabled": false
         }
       },
       "host_genesis_state": {
