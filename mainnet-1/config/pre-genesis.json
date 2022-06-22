@@ -3551,7 +3551,6 @@
         "clients_metadata": [],
         "params": {
           "allowed_clients": [
-            "06-solomachine",
             "07-tendermint"
           ]
         },
@@ -3583,7 +3582,7 @@
         "interchain_accounts": [],
         "ports": [],
         "params": {
-          "controller_enabled": true
+          "controller_enabled": false
         }
       },
       "host_genesis_state": {
@@ -3885,10 +3884,10 @@
         "valset_contract_config": {
           "min_points": "1",
           "max_validators": 100,
-          "epoch_length": "60s",
+          "epoch_length": "120s",
           "epoch_reward": {
             "denom": "utgd",
-            "amount": "100000"
+            "amount": "22815911"
           },
           "scaling": 1,
           "fee_percentage": "50.000000000000000000",
