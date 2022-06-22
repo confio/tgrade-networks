@@ -76,8 +76,8 @@
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "start_time": "1656316800",
           "base_vesting_account": {
-            "start_time": "1656316800",
             "base_account": {
               "address": "tgrade1gkrk4ccj5hks7jermhl6t2l2dqtpdlkrm4jscn",
               "pub_key": null,
