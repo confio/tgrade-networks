@@ -475,7 +475,7 @@
           "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "tgrade144ckxxrzw5y9yg3p0d927rmpcygzfzcxrx3nrx",
+              "address": "tgrade1dl34yx429w7q5e68tlc9w3ahgycqc7edzf88rv",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -3126,7 +3126,7 @@
           ]
         },
         {
-          "address": "tgrade144ckxxrzw5y9yg3p0d927rmpcygzfzcxrx3nrx",
+          "address": "tgrade1dl34yx429w7q5e68tlc9w3ahgycqc7edzf88rv",
           "coins": [
             {
               "denom": "utgd",
