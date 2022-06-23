@@ -126,8 +126,8 @@ git push origin master
 
 ### Recap
 As mentioned before:
-1. We need to recompile the tgrade binary again. This time using the latest stable versoin [`v1.0.0`](###Build)
-2. Review and do the neccesary changes for the first [`persistent_peer`](###Setup)
+1. We need to recompile the tgrade binary again. This time using the latest stable versoin [`v1.0.0`](#Build)
+2. Review and do the neccesary changes for the first [`persistent_peer`](#Setup)
 
 ### Get the final genesis file
 Once we gather all the genesis txs. We will create the final version of the genesis file to be used on the network
