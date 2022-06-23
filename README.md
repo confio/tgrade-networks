@@ -126,8 +126,8 @@ git push origin master
 
 ### Recap
 As mentioned before:
-1. We need to recompile the tgrade binary again. This time using the latest stable version [v1.0.0](#build-the-tgrade-binary)
-2. Review and do the neccesary changes for the first [persistent_peer](#setup-the-right-parameters-and-values-on-the-toml-files)
+1. Recompile the tgrade binary again. This time using the latest stable version [v1.0.0](#build-the-tgrade-binary)
+2. Review and do the necessary changes for the first [persistent_peer](#setup-the-right-parameters-and-values-on-the-toml-files)
 
 ### Get the final genesis file
 
