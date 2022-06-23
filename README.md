@@ -130,7 +130,6 @@ As mentioned before:
 2. Review and do the neccesary changes for the first [persistent_peer](#setup-the-right-parameters-and-values-on-the-toml-files)
 
 ### Get the final genesis file
-Once we gather all the genesis txs. We will create the final version of the genesis file to be used on the network
 
 Get the genesis file and moved to the right location
 ```bash
