@@ -167,7 +167,7 @@ tgrade tx poe create-validator \
 ```
 
 Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
-https://dryrunnet.aneka.io/
+( soon to be available )
 
 ### ( Optional )
 If you want to delegate an amount of liquid and/or vesting coins from your wallet to a validator:
