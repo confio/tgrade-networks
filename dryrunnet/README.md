@@ -153,6 +153,8 @@ You can get tokens by login for first time into the Tgrade WebApp:
 1. [Tgrade application](https://dapp.tgrade.finance),
 2. or ask on the discord channel: [genesis-validators](https://discord.com/channels/844486286445903872/963740837093720094)
 
+## Upgrade to a validator after Genesis - PHASE 4 ( Optional )
+
 ### Upgrade to a validator
 Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain.
 
