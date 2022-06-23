@@ -4085,7 +4085,7 @@
           "name": "Arbiter Pool",
           "escrow_amount": {
             "denom": "utgd",
-            "amount": "100000000"
+            "amount": "1000000"
           },
           "voting_rules": {
             "voting_period": 30,
