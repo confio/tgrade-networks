@@ -126,7 +126,7 @@ git push origin master
 
 ### Recap
 As mentioned before:
-1. We need to recompile the tgrade binary again. This time using the latest stable versoin [v1.0.0](#build-the-tgrade-binary)
+1. We need to recompile the tgrade binary again. This time using the latest stable version [v1.0.0](#build-the-tgrade-binary)
 2. Review and do the neccesary changes for the first [persistent_peer](#setup-the-right-parameters-and-values-on-the-toml-files)
 
 ### Get the final genesis file
@@ -160,10 +160,10 @@ tgrade tx poe create-validator \
   --vesting-amount 900000000utgd \
   --from <validator-address> \
   --pubkey $(tgrade tendermint show-validator) \
-  --chain-id tgrade-dryrunnet \
+  --chain-id tgrade-mainnet-1 \
   --moniker "<your-validator-name>" \
   --fees 20000utgd \
-  --node https://rpc.dryrunnet.tgrade.confio.run:443
+  --node https://rpc.mainnet-1.tgrade.confio.run:443
 ```
 
 Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
@@ -174,8 +174,8 @@ If you want to delegate an amount of liquid and/or vesting coins from your walle
 ```bash
 tgrade tx poe self-delegate 100000000utgd 900000000utgd \
   --from <validator-address> \
-  --chain-id tgrade-dryrunnet \
+  --chain-id tgrade-mainnet-1 \
   --fees 10000utgd \
-  --node https://rpc.dryrunnet.tgrade.confio.run:443
+  --node https://rpc.mainnet-1.tgrade.confio.run:443
 
 
