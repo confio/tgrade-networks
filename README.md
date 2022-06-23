@@ -29,7 +29,7 @@ It is both blockchain node and interaction client. Therefore we use git to clone
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v0.10.0-rc2
+git checkout v1.0.0
 ```
 
 Run GO install and build for the upcoming binary
@@ -42,16 +42,7 @@ Move the binary to an executable path
 sudo mv build/tgrade /usr/local/bin
 ```
 
-At last, Thank you \
-As an official announcement, we can start the process at the moment:
-- gathering the correct info,
-- getting the pre-genesis file ready,
-- and submitting a gen tx in a few days.
-
-But we will ask you to recompile the binary once the final version of tgrade 0.10.0 is available.
-
 ## Setting up a Genesis Tgrade Validator - PHASE 1
-( to be announced ) - within 14.06 - 17.06
 
 ### Initialize your genesis and configuration files
 Initialize your genesis and configuration files for all validators nodes
@@ -76,7 +67,7 @@ Into the mnemonic(s) used for your tgrade address
 ### Get the pre-genesis file
 Get the genesis file and moved to the right location
 ```bash
-wget https://raw.githubusercontent.com/confio/public-testnets/main/mainnet-1/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
+wget https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
 ```
 ( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
@@ -89,7 +80,7 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
 
 - config.toml: set persistent_peers and other suggested changes
   moniker = "<your validator name>"
-  persistent_peers = "387ea7136c50b3849006f3146cc0d96492acc1e9@142.132.226.137:26656,4a319eead699418e974e8eed47c2de6332c3f825@167.235.255.9:26656,6918efd409684d64694cac485dbcc27dfeea4f38@49.12.240.203:26656"
+  persistent_peers = "0a63421f67d02e7fb823ea6d6ceb8acf758df24d@142.132.226.137:26656,4a319eead699418e974e8eed47c2de6332c3f825@167.235.255.9:26656,6918efd409684d64694cac485dbcc27dfeea4f38@49.12.240.203:26656"
 ```
 
 ## Create genesis txs - PHASE 2
@@ -116,7 +107,7 @@ vesting-amount, node-id, and home values are just examples, please change it acc
 
 ### Upload your Gen_TX
 The above will create a gentx file. We are going to need it for the genesis collect.
-1. Fork the repo: https://github.com/confio/public-testnets , clicking on fork, and choose your account
+1. Fork the repo: https://github.com/confio/tgrade-networks , clicking on fork, and choose your account
 2. Clone your fork copy to your local machine
 3. Copy the gentx file into `../mainnet-1/config/gentx/`
 4. Commit and push the repo
@@ -124,13 +115,67 @@ The above will create a gentx file. We are going to need it for the genesis coll
 6. Inform us on the discord channel
 
 ```bash
-git clone https://github.com/<your_github_username>/public-testnets
-cd public-testnets
-git add public-testnets/mainnet-1/config/gentx/
+git clone https://github.com/<your_github_username>/tgrade-networks
+cd tgrade-networks
+git add tgrade-networks/mainnet-1/config/gentx/
 git commit -am "<your validator name> - gentx - comment"
 git push origin master
 ```
 
 ## Start your Validator - PHASE 3
-( to be announced ) - within 22.06 - 24.06
+
+### Recap
+As mentioned before:
+1. We need to recompile the tgrade binary again. This time using the latest stable versoin [`v1.0.0`](### Build the tgrade binary)
+2. Review and do the neccesary changes for the first [`persistent_peer`](### Setup the right parameters and values on the TOML files)
+
+### Get the final genesis file
+Once we gather all the genesis txs. We will create the final version of the genesis file to be used on the network
+
+Get the genesis file and moved to the right location
+```bash
+wget https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json -O ~/.tgrade/config/genesis.json
+```
+( this will be the case if the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
+
+### Start the syncing
+There are different ways to manage the tgrade binary on your validator,
+1. Setting up such binary to be managed by systemd, or
+2. Open a tmux or screen session and run tgrade start
+
+The syntax is:
+```bash
+tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
+```
+( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
+
+### Upgrade to a validator
+Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain.
+
+If you don't have engagement points previosly assigned, you need to ask for a Proposal to the Oversight Community for `Grant Engagement Points` \
+and when the above condition is completed, you run the following command syntax:
+```bash
+tgrade tx poe create-validator \
+  --amount 0utgd \
+  --vesting-amount 900000000utgd \
+  --from <validator-address> \
+  --pubkey $(tgrade tendermint show-validator) \
+  --chain-id tgrade-dryrunnet \
+  --moniker "<your-validator-name>" \
+  --fees 20000utgd \
+  --node https://rpc.dryrunnet.tgrade.confio.run:443
+```
+
+Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
+https://dryrunnet.aneka.io/
+
+### ( Optional )
+If you want to delegate an amount of liquid and/or vesting coins from your wallet to a validator:
+```bash
+tgrade tx poe self-delegate 100000000utgd 900000000utgd \
+  --from <validator-address> \
+  --chain-id tgrade-dryrunnet \
+  --fees 10000utgd \
+  --node https://rpc.dryrunnet.tgrade.confio.run:443
+
 
