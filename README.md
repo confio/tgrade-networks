@@ -156,6 +156,7 @@ tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
 
 ## Upgrade to a validator after Genesis - PHASE 4 ( Optional )
+In case you missed [PHASE 2](#Create-genesis-txs---PHASE-2). You can still become a validator.
 
 ### Upgrade to a validator
 Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain.
