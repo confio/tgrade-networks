@@ -83,6 +83,15 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
   seeds = "0c3b7d5a4253216de01b8642261d4e1e76aee9d8@45.76.202.195:26656,1e1fc55291968f97b7c9016ebd244fa186050a6f@138.201.16.60:26656"
   persistent_peers = "0a63421f67d02e7fb823ea6d6ceb8acf758df24d@142.132.226.137:26656,4a319eead699418e974e8eed47c2de6332c3f825@167.235.255.9:26656,6918efd409684d64694cac485dbcc27dfeea4f38@49.12.240.203:26656"
 ```
+Run these commands to automatically update the values
+
+```
+sed -i.bak -e "/moniker =/ c moniker \"<your validator name>\"" \
+-e "/seeds =/ c seeds = \"0c3b7d5a4253216de01b8642261d4e1e76aee9d8@45.76.202.195:26656,1e1fc55291968f97b7c9016ebd244fa186050a6f@138.201.16.60:26656\"" \
+-e "/persistent_peers = ""/ c persistent_peers = \"0a63421f67d02e7fb823ea6d6ceb8acf758df24d@142.132.226.137:26656,4a319eead699418e974e8eed47c2de6332c3f825@167.235.255.9:26656,6918efd409684d64694cac485dbcc27dfeea4f38@49.12.240.203:26656\"" ~/.tgrade/config/config.toml
+sed -i.bak -e "/minimum-gas-prices/ c minimum-gas-prices = \"0.05utgd\"" ~/.tgrade/config/app.toml
+```
+( this will be the case if the APP Home directory is ~/.tgrade , please change it accordingly to your system/validator)
 
 ### Adding extra persistent_peers for the beginning of the network ( Optional )
 This is Optional, but very important for a smooth seed phase, you could add an extra list of persisten_peers including the official published above.
