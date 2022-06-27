@@ -167,12 +167,14 @@ and when the above condition is completed, you run the following command syntax:
 ```bash
 tgrade tx poe create-validator \
   --amount 0utgd \
-  --vesting-amount 900000000utgd \
+  --vesting-amount 285000000000utgd \
   --from <validator-address> \
   --pubkey $(tgrade tendermint show-validator) \
   --chain-id tgrade-mainnet-1 \
   --moniker "<your-validator-name>" \
   --fees 20000utgd \
+  --gas auto \
+  --gas-adjustment 1.4 \
   --node https://rpc.mainnet-1.tgrade.confio.run:443
 ```
 
