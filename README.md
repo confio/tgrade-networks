@@ -179,7 +179,7 @@ Wait for a few blocks to be validate and your validator will appears as active i
 ( soon to be available )
 
 ### ( Optional )
-If you want to delegate an amount of liquid and/or vesting coins from your wallet to a validator:
+If you want to delegate an amount of liquid and/or vesting coins from your wallet to your validator:
 ```bash
 tgrade tx poe self-delegate 100000000utgd 900000000utgd \
   --from <validator-address> \
