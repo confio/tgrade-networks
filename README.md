@@ -5,7 +5,7 @@
 - **tgrade version**: [`v1.0.0`](https://github.com/confio/tgrade/releases/tag/v1.0.0)
 - **Staking, Fee token**: `utgd`
 - **Min Fee**: `0.05utgd`
-- **Date Deployed**: `2022-06-03T16:30:01Z`
+- **Date Deployed**: `2022-06-27T12:00:01Z`
 
 The [genesis file](./config/genesis.json) is here.
 
