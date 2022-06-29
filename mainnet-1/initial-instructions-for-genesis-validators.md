@@ -1,9 +1,25 @@
-If you find this Repo, this is for the Tgrade mainnet preparation. \
-We have already assigned external validators for the task and not accepting newcomers. Thank you
+# Tgrade - tgrade-mainnet-1
+
+- **go version**: `1.18.3`
+- **Chain ID**: `tgrade-mainnet-1`
+- **tgrade version**: [`v1.0.0`](https://github.com/confio/tgrade/releases/tag/v1.0.0)
+- **Staking, Fee token**: `utgd`
+- **Min Fee**: `0.05utgd`
+- **Date Deployed**: `2022-06-27T12:00:01Z`
+
+The [genesis file](./config/genesis.json) is here.
+
+## Endpoints
+
+Here we list all explorers, APIs, and apps you can access with a browser:
+
+* [RPC](https://rpc.mainnet-1.tgrade.confio.run) - public RPC endpoint
+* [API](https://api.mainnet-1.tgrade.confio.run) - public Rest API endpoint
+* [Aneka Block-Explorer](https://tgrade.aneka.io) - block explorer
 
 # Tgrade - MainNet-1
 
-You can see the live network via our [block explorer](). \
+You can see the live network via our [block explorer](https://tgrade.aneka.io) \
 When you are ready to build a node, follow the instructions below:
 
 ## Hardware Requirements
@@ -179,8 +195,7 @@ tgrade tx poe create-validator \
   --home /opt/validator/.tgrade
 ```
 
-Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
-( soon to be available )
+Wait for a few blocks to be validate and your validator will appears as active in the block-explorer: https://tgrade.aneka.io
 
 ### ( Optional )
 If you want to delegate an amount of liquid and/or vesting coins from your wallet to your validator:
