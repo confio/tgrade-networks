@@ -169,13 +169,14 @@ tgrade tx poe create-validator \
   --amount 0utgd \
   --vesting-amount 285000000000utgd \
   --from <validator-address> \
-  --pubkey $(tgrade tendermint show-validator) \
+  --pubkey $(sudo tgrade tendermint show-validator --home /opt/validator/.tgrade) \
   --chain-id tgrade-mainnet-1 \
   --moniker "<your-validator-name>" \
-  --fees 20000utgd \
+  --fees 200000utgd \
   --gas auto \
   --gas-adjustment 1.4 \
-  --node https://rpc.mainnet-1.tgrade.confio.run:443
+  --node https://rpc.mainnet-1.tgrade.confio.run:443 \
+  --home /opt/validator/.tgrade
 ```
 
 Wait for a few blocks to be validate and your validator will appears as active in the block-explorer:
@@ -188,6 +189,7 @@ tgrade tx poe self-delegate 100000000utgd 900000000utgd \
   --from <validator-address> \
   --chain-id tgrade-mainnet-1 \
   --fees 10000utgd \
-  --node https://rpc.mainnet-1.tgrade.confio.run:443
-
+  --node https://rpc.mainnet-1.tgrade.confio.run:443 \
+  --home /opt/validator/.tgrade
+```
 
