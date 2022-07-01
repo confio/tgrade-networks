@@ -7,7 +7,7 @@
 - **Min Fee**: `0.05utgd`
 - **Date Deployed**: `2022-06-27T12:00:01Z`
 
-The [genesis file](nainnet-1/config/genesis.json) is here.
+The [genesis file](mainnet-1/config/genesis.json) is here.
 
 ## Endpoints
 
