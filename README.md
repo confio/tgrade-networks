@@ -96,7 +96,7 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
 
 - config.toml: set persistent_peers and other suggested changes
   moniker = "<your validator name>"
-  seeds = "0c3b7d5a4253216de01b8642261d4e1e76aee9d8@45.76.202.195:26656"
+  seeds = "0c3b7d5a4253216de01b8642261d4e1e76aee9d8@45.76.202.195:26656,7d08b16e568d8fcee1a6a4850197054aa469bf71@seed.tgrade.stakewith.us:54456"
   persistent_peers = "0a63421f67d02e7fb823ea6d6ceb8acf758df24d@142.132.226.137:26656,4a319eead699418e974e8eed47c2de6332c3f825@167.235.255.9:26656,6918efd409684d64694cac485dbcc27dfeea4f38@49.12.240.203:26656"
 ```
 ## Start your Validator - PHASE 2
