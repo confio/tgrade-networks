@@ -2,7 +2,7 @@
 
 - **go version**: `1.18.3`
 - **Chain ID**: `tgrade-mainnet-1`
-- **tgrade version**: [`v1.0.0`](https://github.com/confio/tgrade/releases/tag/v1.0.0)
+- **tgrade version**: [`v1.0.1`](https://github.com/confio/tgrade/releases/tag/v1.0.1)
 - **Staking, Fee token**: `utgd`
 - **Min Fee**: `0.05utgd`
 - **Date Deployed**: `2022-06-27T12:00:01Z`
