@@ -45,7 +45,7 @@ It is both blockchain node and interaction client. Therefore we use git to clone
 ```bash
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v1.0.0
+git checkout v1.0.1
 ```
 
 Run GO install and build for the upcoming binary
