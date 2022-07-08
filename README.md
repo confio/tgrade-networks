@@ -99,6 +99,18 @@ Please edit the `config/app.toml` and `config/config.toml` accordingly
   seeds = "0c3b7d5a4253216de01b8642261d4e1e76aee9d8@45.76.202.195:26656,8639bc931d5721a64afc1ea52ca63ae40161bd26@194.163.144.63:26656"
   persistent_peers = "0a63421f67d02e7fb823ea6d6ceb8acf758df24d@142.132.226.137:26656,4a319eead699418e974e8eed47c2de6332c3f825@167.235.255.9:26656,6918efd409684d64694cac485dbcc27dfeea4f38@49.12.240.203:26656"
 ```
+
+### Adding extra persistent_peers ( Optional )
+This is Optional, we have 2 volunteers as persistent peers to reach different regions around the world:
+- **Singapre**:
+```bash
+24c587b6c533e391ca5e4b78334ddac4a339d371@139.59.250.37:26656
+```
+- ** **:
+```bash
+
+```
+
 ## Start your Validator - PHASE 2
 
 ### Get the genesis file
