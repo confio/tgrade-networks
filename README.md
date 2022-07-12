@@ -80,13 +80,6 @@ tgrade keys add my-validator --recover --home /opt/validator/.tgrade
 
 Into the mnemonic(s) used for your tgrade address
 
-### Get the pre-genesis file
-Get the genesis file and moved to the right location
-```bash
-wget https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/pre-genesis.json -O ~/opt/validator/.tgrade/config/genesis.json
-```
-( this will be the case if the APP Home directory is /opt/validator/.tgrade , please change it accordingly to your system/validator)
-
 ### Setup the right parameters and values on the TOML files
 Please edit the `config/app.toml` and `config/config.toml` accordingly
 
@@ -105,10 +98,6 @@ This is Optional, we have 2 volunteers as persistent peers to reach different re
 - **Singapre**:
 ```bash
 24c587b6c533e391ca5e4b78334ddac4a339d371@139.59.250.37:26656
-```
-- ** **:
-```bash
-
 ```
 
 ## Start your Validator - PHASE 2
