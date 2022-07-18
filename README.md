@@ -100,6 +100,11 @@ This is Optional, we have 2 volunteers as persistent peers to reach different re
 24c587b6c533e391ca5e4b78334ddac4a339d371@139.59.250.37:26656
 ```
 
+### Alternative RPCs
+* [from AnyValid](https://tgrade-rpc.anyvalid.com/status)
+* [from DSRV](https://tgrade-mainnet-rpc.allthatnode.com:26657/status)
+* [from StakeAngle](https://tgrade-rpc.stakeangle.com/status)
+
 ## Start your Validator - PHASE 2
 
 ### Get the genesis file
