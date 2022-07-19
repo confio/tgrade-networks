@@ -17,6 +17,11 @@ Here we list all explorers, APIs, and apps you can access with a browser:
 * [API](https://api.mainnet-1.tgrade.confio.run) - public Rest API endpoint
 * [Aneka Block-Explorer](https://tgrade.aneka.io) - block explorer
 
+## Alternative RPCs
+* [from AnyValid](https://tgrade-rpc.anyvalid.com/status)
+* [from DSRV](https://tgrade-mainnet-rpc.allthatnode.com:26657/status)
+* [from StakeAngle](https://tgrade-rpc.stakeangle.com/status)
+
 # Tgrade - MainNet-1
 
 You can see the live network via our [block explorer](https://tgrade.aneka.io) \
@@ -103,11 +108,6 @@ This is Optional, we have 2 volunteers as persistent peers to reach different re
 ```bash
 5d40836ad95efe9a9671265949141f4ef896f1de@5.161.99.107:26656
 ```
-
-### Alternative RPCs
-* [from AnyValid](https://tgrade-rpc.anyvalid.com/status)
-* [from DSRV](https://tgrade-mainnet-rpc.allthatnode.com:26657/status)
-* [from StakeAngle](https://tgrade-rpc.stakeangle.com/status)
 
 ## Start your Validator - PHASE 2
 
