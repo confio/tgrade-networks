@@ -135,10 +135,22 @@ tgrade start --rpc.laddr tcp://0.0.0.0:26657 --home /opt/validator/.tgrade
 ### Upgrade to a validator
 Once your validator is in sync with the current height and blockchain_db, you can upgrade to be an active validator in the blockchain.
 
-If you don't have engagement points previosly assigned, you need to ask for a Proposal to the Oversight Community for `Grant Engagement Points` \
-Where? in the discord [channel](https://discord.com/channels/844486286445903872/990896270686158858) ( private channel ).
+If you don't have engagement points previosly assigned, 
+It is possible to earn engagement points in the following ways:
 
-If need tokens for your validator, there is going to be a tool and/or option that will allow you to acquire new tokens in the near future.
+- Blog article about Tgrade/Proof-of-Engagement
+- Video about the project
+- Infographics on Tgrade
+- Translation of documents
+- Writing documentation - Technical
+- Writing documentation - Business
+- Podcast about the project
+- Proposal for project governance
+- Validator operation
+- Community Management
+- And anything else you think could be helpful. The application form is [here](https://docs.google.com/forms/d/e/1FAIpQLScJxyazrE5XqhKPiU_3FAI1kuPdMUTnX3gUj_ZX3Q1vluZ0Dg/viewform).
+
+If need tokens for your validator, you can swap ATOMs, OSMOs, USDCs, and more to TGDs in the [Osmosis Platform](https://app.osmosis.zone/).
 
 When the above conditions are completed, you run the following command syntax:
 ```bash
