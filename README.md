@@ -178,7 +178,7 @@ tgrade tx poe self-delegate 100000000utgd 900000000utgd \
   --gas auto \
   --gas-adjustment 1.4 \
   --chain-id tgrade-mainnet-1 \
-  --fees 10000utgd \
+  --fees 15420utgd \
   --node https://rpc.mainnet-1.tgrade.confio.run:443 \
   --home /opt/validator/.tgrade
 ```
