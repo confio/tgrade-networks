@@ -150,7 +150,7 @@ It is possible to earn engagement points in the following ways:
 - Community Management
 - And anything else you think could be helpful. The application form is [here](https://docs.google.com/forms/d/e/1FAIpQLScJxyazrE5XqhKPiU_3FAI1kuPdMUTnX3gUj_ZX3Q1vluZ0Dg/viewform).
 
-If need tokens for your validator, you can swap ATOMs, OSMOs, USDCs, and more to TGDs in the [Osmosis Platform](https://app.osmosis.zone/).
+If you need tokens for your validator, you can swap ATOMs, OSMOs, USDCs, and more to TGDs in the [Osmosis Platform](https://app.osmosis.zone/).
 
 When the above conditions are completed, you run the following command syntax:
 ```bash
