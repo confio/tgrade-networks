@@ -63,7 +63,7 @@ Move the binary to an executable path
 sudo mv build/tgrade /usr/local/bin
 ```
 
-## Setting up a Genesis Tgrade Validator - PHASE 1
+## Setting up a Tgrade Validator - PHASE 1
 
 ### Initialize your genesis and configuration files
 Initialize your genesis and configuration files for all validators nodes
