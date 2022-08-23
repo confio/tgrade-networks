@@ -16,6 +16,7 @@ Here we list all explorers, APIs, and apps you can access with a browser:
 * [RPC](https://rpc.mainnet-1.tgrade.confio.run) - public RPC endpoint
 * [API](https://api.mainnet-1.tgrade.confio.run) - public Rest API endpoint
 * [Aneka Block-Explorer](https://tgrade.aneka.io) - block explorer
+* [MintScan Block-Explorer](https://www.mintscan.io/tgrade) - block explorer
 
 ## Alternative RPCs
 * [from AnyValid](https://tgrade-rpc.anyvalid.com/status)
@@ -24,7 +25,7 @@ Here we list all explorers, APIs, and apps you can access with a browser:
 
 # Tgrade - MainNet-1
 
-You can see the live network via our [block explorer](https://tgrade.aneka.io) \
+You can see the live network via our [Aneka block explorer](https://tgrade.aneka.io) and/or [MintScan Block-Explorer](https://www.mintscan.io/tgrade)\
 When you are ready to build a node, follow the instructions below:
 
 ## Hardware Requirements
@@ -75,10 +76,13 @@ tgrade init my-validator --chain-id tgrade-mainnet-1 --home /opt/validator/.tgra
 ```
 
 ### Import your Validator Key
-We already have assigned the genesis validators for the upcoming blockchain. Therefore use the tgrade address YOU provided via Email.
+We already have assigned the genesis validators for the blockchain. But if would like to join you are free to do.
+Therefore, this is the step to create or import your key to be used for your validator
 
 Usage:
 ```bash
+tgrade keys add <name> [flags]
+# or
 tgrade keys add <name> --recover
 tgrade keys add my-validator --recover --home /opt/validator/.tgrade
 ```
@@ -168,7 +172,7 @@ tgrade tx poe create-validator \
   --home /opt/validator/.tgrade
 ```
 
-Wait for a few blocks to be validate and your validator will appears as active in the block-explorer: https://tgrade.aneka.io
+Wait for a few blocks to be validate and your validator will appears as active in the block-explorer: https://tgrade.aneka.io or https://www.mintscan.io/tgrade
 
 ### Delegate more liquid and/or vesting tokens to your valiator ( Optional )
 If you want to delegate an amount of liquid and/or vesting coins from your wallet to your validator:
