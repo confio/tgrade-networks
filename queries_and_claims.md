@@ -69,6 +69,8 @@ pagination: null
 Syntax:
 ```bash
 tgrade tx poe unbond [amount] --from [validator_address/keyname] [flags]
+
+# Example
 tgrade tx poe unbond 1tgd --from miguel --fees 16000utgd \
   --gas-adjustment 1.4 \
   --gas auto \
@@ -80,6 +82,7 @@ tgrade tx poe unbond 1tgd --from miguel --fees 16000utgd \
 After an amount balance has completed its unbonding period, you have to run a claim to make available and be part of the liquidity
 Syntax:
 ```bash
+# Example
 tgrade tx wasm execute "tgrade17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsmsjtzp" '{"claim": {}}' \
   --amount 601000utgd \
   --from miguel \
