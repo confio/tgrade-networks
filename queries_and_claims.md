@@ -79,7 +79,7 @@ tgrade tx poe unbond 1tgd --from miguel --fees 16000utgd \
 ```
 
 ## Execute and/or run a Claim
-After an amount balance has completed its unbonding period, you have to run a claim to make available and be part of the liquidity
+After an amount balance has completed its unbonding period, you have to run a claim to make it available and be part of the liquidity
 Syntax:
 ```bash
 # Example
