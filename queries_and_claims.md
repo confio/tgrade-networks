@@ -5,7 +5,8 @@ Syntax:
 tgrade query bank [address] [flags]
 
 # Example
-tgrade query bank balances tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25 --node https://rpc.mainnet-1.tgrade.confio.run:443
+tgrade query bank balances tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25 \
+  --node https://rpc.mainnet-1.tgrade.confio.run:443
 balances:
 - amount: "70600669000"
   denom: utgd
@@ -20,7 +21,8 @@ Syntax:
 tgrade query account [address] [flags]
 
 # Example
-tgrade query account tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25 --node https://rpc.mainnet-1.tgrade.confio.run:443
+tgrade query account tgrade17h2x3j7u44qkrq0sk8ul0r2qr440rwgjca5y25 \
+  --node https://rpc.mainnet-1.tgrade.confio.run:443
 '@type': /cosmos.vesting.v1beta1.ContinuousVestingAccount
 base_vesting_account:
   base_account:
@@ -49,7 +51,8 @@ Syntax:
 tgrade query poe unbonding-delegations [validator-addr] [flags]
 
 # Example
-tgrade query poe unbonding-delegations tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u --node https://rpc.mainnet-1.tgrade.confio.run:443
+tgrade query poe unbonding-delegations tgrade1admh0ft2553aw6u9hxn7v2vw488r0yyg6u345u \
+  --node https://rpc.mainnet-1.tgrade.confio.run:443
 entries:
 - balance: "0"
   completion_time: "2022-08-15T10:30:56.587443684Z"
