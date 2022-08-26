@@ -22,6 +22,7 @@ Here we list all explorers, APIs, and apps you can access with a browser:
 * [from AnyValid](https://tgrade-rpc.anyvalid.com/status)
 * [from DSRV](https://tgrade-mainnet-rpc.allthatnode.com:26657/status)
 * [from StakeAngle](https://tgrade-rpc.stakeangle.com/status)
+* [from POSTHUMAN ꝏ DVS](https://rpc.tgrade.posthuman.digital/status)
 
 # Tgrade - MainNet-1
 
