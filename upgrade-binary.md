@@ -1,4 +1,4 @@
-# How to change the binary
+# How to change the Tgrade binary
 
 # 1) By using --halt-height
 
