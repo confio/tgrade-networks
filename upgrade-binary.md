@@ -18,7 +18,6 @@ Finishing with starting the tgrade process as normal:
 
 `tgrade start --rpc.laddr tcp://0.0.0.0:26657`
 
-I know some validators are running tgrade in a bash script, systemd service unit, docker container, running tgrade in the background, etc
 
 # 2) By using Cosmovisor
 
