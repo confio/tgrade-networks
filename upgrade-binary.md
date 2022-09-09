@@ -98,7 +98,7 @@ sudo systemctl enable tgrade
 sudo systemctl start tgrade
 ```
 
-**NOTE:** be aware you may need to change the PATH according to your system, on this scenario, I was using the user called `user` with home directory `/home/user` and app_home directory `/home/user/.tgrade`
+**NOTE:** be aware you may need to change the PATH according to your system, in this scenario, I was using the user called `user` with home directory `/home/user` and app_home directory `/home/user/.tgrade`
 
 ## 2.b) Copy the new Binary ( tgrade v2.0.0 ) in its place
 
