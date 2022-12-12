@@ -110,7 +110,7 @@ $HOME/.tgrade/config/priv_validator_key.json **(Critical!!!)**
 
 Add peers to the `persistent_peers =` in .tgrade/config/config.toml.  You can find those here:  
   
-https://github.com/lightiv/tgrade/raw/main/Elizabeth-1/peers.txt
+https://github.com/lightiv/tgrade-public-testnets/raw/main/elizabeth-1/peer.txt
 
 ```
 nano .tgrade/config/config.toml
