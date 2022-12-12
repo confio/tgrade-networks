@@ -1,4 +1,4 @@
-# Tgrade: elizabeth-1 Testnet
+# Tgrade: elizabeth-1 Community Testnet
 
 Elizabeth-1 is our long term testnet.  It is an enviroment for the community to build and test their Trusted Circle and applications on.
 
