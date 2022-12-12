@@ -1,6 +1,6 @@
 # Tgrade: elizabeth-1 Community Testnet
 
-Elizabeth-1 is our long term testnet.  It is an enviroment for the community to build and test their Trusted Circle and applications on.
+Elizabeth-1 is our community managed testnet.  It is an enviroment for the community to build and test their Trusted Circle and applications on.
 
 ## Hardware Requirements
 For running a tgrade validator. We tested successfully with the following Architecture:
