@@ -49,7 +49,7 @@ make build
 
 Move the binary to an executable path
 ```
-sudo mv build/tgrade /usr/bin
+sudo mv build/tgrade /usr/local/bin
 ```
 Check that you have the right `tgrade` version installed
 ```
@@ -110,7 +110,7 @@ $HOME/.tgrade/config/priv_validator_key.json **(Critical!!!)**
 
 Add peers to the `persistent_peers =` in .tgrade/config/config.toml.  You can find those here:  
   
-https://github.com/lightiv/tgrade-public-testnets/raw/main/elizabeth-1/peer.txt
+https://github.com/confio/tgrade-networks/raw/main/elizabeth-1/peer.txt
 
 ```
 nano .tgrade/config/config.toml
@@ -214,8 +214,8 @@ tgrade tx staking create-validator -o text \
   --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1" \
-  --fees 5000utgd \
-  --from=skynet \
+  --fees <AMOUNT>utgd \
+  --from=<KEY_NAME \
   --details="<DESCRIPTION_OF_YOUR_ORGANIZATION" \ <- OPTIONAL***
   --security-contact="<SECURITY_CONTACT_EMAIL_ADDRESS" \ <- OPTIONAL***
   --website="<YOUR_WEBSIT" \  <- OPTIONAL***
