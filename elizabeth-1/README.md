@@ -79,7 +79,7 @@ tgrade init "<NAME_OF_MY_VALIDATOR>" --chain-id elizabeth-1
 ```
 cd $HOME/.tgrade/config
 rm genesis.json
-wget https://github.com/lightiv/tgrade/raw/main/Elizabeth-1/genesis.json -O ~/.tgrade/config/genesis.json
+wget https://github.com/confio/tgrade-networks/raw/main/elizabeth-1/genesis.json -O ~/.tgrade/config/genesis.json
 ```
 
 Verify Genesis sha256 hash
