@@ -215,10 +215,10 @@ tgrade tx staking create-validator -o text \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1" \
   --fees <AMOUNT>utgd \
-  --from=<KEY_NAME \
-  --details="<DESCRIPTION_OF_YOUR_ORGANIZATION" \ <- OPTIONAL***
-  --security-contact="<SECURITY_CONTACT_EMAIL_ADDRESS" \ <- OPTIONAL***
-  --website="<YOUR_WEBSIT" \  <- OPTIONAL***
+  --from=<KEY_NAME> \
+  --details="<DESCRIPTION_OF_YOUR_ORGANIZATION>" \ <- OPTIONAL***
+  --security-contact="<SECURITY_CONTACT_EMAIL_ADDRESS>" \ <- OPTIONAL***
+  --website="<YOUR_WEBSITE>" \  <- OPTIONAL***
   --identity=<YOUR_KEYBASE_ID>  <- OPTIONAL***
 
 ```  
